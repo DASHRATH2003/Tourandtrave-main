@@ -1,6 +1,55 @@
 import React, { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo22.webp";
 
+// Import images for the slider
+const sliderImages = [
+  "https://imgd.aeplcdn.com/370x208/n/396ijta_1496119.jpg?q=80",
+  "https://png.pngtree.com/background/20231101/original/pngtree-sleek-and-lightning-fast-white-sports-car-against-a-pure-background-picture-image_5830117.jpg",
+  "https://t3.ftcdn.net/jpg/09/13/56/54/360_F_913565427_K3DnEqBiRfRdwNeMXXgRXirQOonXIgRb.jpg",
+  "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
+  "https://media.istockphoto.com/id/2182418122/photo/white-jaguar-f-type-coupe-in-motion-on-a-sunny-day.jpg?s=612x612&w=0&k=20&c=jz2x2kn6SWZZ8bSmy1X3ymCp1ArBH9sM8ix9oL9RLME="
+];
+
+// Image Slider Component
+const ImageSlider = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev === sliderImages.length - 1 ? 0 : prev + 1));
+    }, 3000);
+    
+    return () => clearInterval(interval);
+  }, []);
+  
+  return (
+    <div className="relative w-full h-96 overflow-hidden rounded-lg">
+      {sliderImages.map((image, index) => (
+        <div 
+          key={index}
+          className={`absolute w-full h-full transition-opacity duration-1000 ${index === currentImage ? 'opacity-100' : 'opacity-0'}`}
+        >
+          <img 
+            src={image} 
+            alt={`Slide ${index + 1}`} 
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ))}
+      <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
+        {sliderImages.map((_, index) => (
+          <button
+            key={index}
+            className={`w-3 h-3 rounded-full ${index === currentImage ? 'bg-white' : 'bg-gray-400'}`}
+            onClick={() => setCurrentImage(index)}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
 const CountUpNumber = ({ end, duration = 2000 }) => {
   const [count, setCount] = useState(0);
   const countRef = useRef(null);
@@ -118,13 +167,9 @@ const About = () => {
       {/* About Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Logo Side */}
+          {/* Image Slider Side */}
           <div className="md:w-1/2">
-            <img
-              src={logo}
-              alt="VARSHADHAARA TOURS AND TRAVELS PVT LTD"
-              className="w-full max-w-lg mx-auto"
-            />
+            <ImageSlider />
           </div>
           {/* Text Side */}
           <div className="md:w-1/2">

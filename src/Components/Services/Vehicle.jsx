@@ -1,16 +1,16 @@
-import React from 'react';
-import ImageSlider from '../ImageSlider';
+import React from "react";
+import ImageSlider from "../ImageSlider";
 
 // Images for slider
 const sliderImages = [
-  "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkyMi1rdWwtMjJfMi5qcGc.jpg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJNQTUv7jV5nBtlVEQdS33llZhQ9AO6-JbWw&s",
-  "https://astiblog.storage.googleapis.com/wp-content/uploads/2024/03/07173246/The-Role-of-Mobile-Apps-in-Employee-Transport-Solutions-1024x683.jpg",
-  "https://www.appdupe.com/img/employee-transportation/whychoseus.webp",
-  "https://mobisoftinfotech.com/assets/images/products/employe-transport-management-system/shuttle-service-app-development-mockup.png"
+  "https://media.istockphoto.com/id/1456102192/photo/dealer-salesman-giving-car-key-to-owner-client-signing-insurance-document-or-rental-car-lease.jpg?s=612x612&w=0&k=20&c=OF95529tSw9EmiBcNi9frqZ6yudsylb9C0KKlGa4OK4=",
+  "https://t4.ftcdn.net/jpg/05/15/30/57/360_F_515305790_58wwwoB0DbvAidgDZbK7U3ZPhUvvfjzy.jpg",
+  "https://media.istockphoto.com/id/1173046833/photo/sale-agent-deal-to-agreement-successful-car-loan-contract-with-customer-and-sign-agreement.jpg?s=612x612&w=0&k=20&c=0ZTfEfidz5PFLqXWu0lsAraXYbVLD4tWeoNaXM6cb2U=",
+  "https://media.istockphoto.com/id/1264403893/photo/concept-of-insurance-man-protective-and-car-family-health-insurance-policy-examining.jpg?s=612x612&w=0&k=20&c=uWAHnHBqar1YTJB0VzUY9EZ7jwXoZwGiDbawbrUwsKI=",
+  "https://www.shutterstock.com/image-photo/car-insurance-claim-form-toy-600nw-2294560535.jpg",
 ];
 
-const AppDuty = () => {
+const Vehicle = () => {
   return (
     <div className="pt-20">
       {/* Header Section */}
@@ -18,7 +18,7 @@ const AppDuty = () => {
         className="relative bg-cover bg-center bg-no-repeat py-16 mt-[-100px]"
         style={{
           backgroundImage:
-            "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4I5edOER2BW9rqUQMR3Yrxkxw-noGyD9pg&s')",
+            "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZALYu5EEzE9p_66k2clCJkkQ6TLDq8cRlyQ&s')",
         }}
       >
         {/* Optional Overlay */}
@@ -26,11 +26,15 @@ const AppDuty = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            With App Duty/Application Based on employee Transtortation service
+            Vehicle insorence service
           </h1>
           <p className="text-white text-lg leading-relaxed">
-          We offer both app-based and traditional duty services to suit your preferences and business needs. 
-          Our app-based service provides modern features like live tracking, digital duty slips, and instant notifications.
+            We also offer comprehensive vehicle insurance services tailored to
+            protect your car, bike, or commercial vehicle from unexpected
+            damages, theft, and accidents. Whether you're purchasing a new
+            vehicle or renewing an existing policy, our experts help you choose
+            the best coverage options — giving you peace of mind on every
+            journey.
           </p>
         </div>
 
@@ -68,13 +72,27 @@ const AppDuty = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS offers flexible duty options with or without app-based tracking. Choose between traditional service or enhanced digital tracking for real-time monitoring of your transportation needs.
+                Varshadhaara Tours and Travels offers reliable and hassle-free
+                vehicle insurance services to protect your car against
+                unexpected risks. Whether you need comprehensive coverage,
+                third-party liability, or renewal assistance, we provide the
+                right solutions to keep your vehicle secure.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Our app-based duty service provides advanced features like live tracking, digital duty logs, and instant notifications, while our traditional service maintains the same high quality with manual reporting and direct communication.
+                Our vehicle insurance service covers all major cities and
+                ensures your vehicle stays protected wherever you go. With
+                reliable coverage options and expert guidance, we help you
+                select the right insurance plan based on your vehicle type and
+                travel needs.
               </p>
-              
-              <p className='text-gray-700 leading-relaxed mb-6'>Whether you prefer the convenience of modern technology or the comfort of traditional methods, our duty services have you covered. Experience real-time tracking and digital updates with our app, or enjoy dependable manual coordination with our classic service.</p>
+              <br />
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Planning a getaway or a business trip outside the city? Our
+                vehicle information and outstation service offers a fleet of
+                well-maintained vehicles with detailed specifications,
+                experienced drivers, and flexible routes — ensuring you reach
+                your destination comfortably and safely.
+              </p>
             </div>
           </div>
 
@@ -85,39 +103,46 @@ const AppDuty = () => {
         </div>
 
         {/* Additional Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-red-500 text-4xl mb-4">
-              <i className="fas fa-mobile-alt"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">App Tracking</h3>
-            <p className="text-gray-600">Real-time location monitoring</p>
-          </div>
+     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-red-500 text-4xl mb-4">
+      <i className="fas fa-file-alt"></i> {/* Insurance Document Icon */}
+    </div>
+    <h3 className="text-xl font-semibold mb-2">Policy Options</h3>
+    <p className="text-gray-600">
+      Choose from a range of third-party and comprehensive insurance plans
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-red-500 text-4xl mb-4">
-              <i className="fas fa-clipboard-list"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Digital Logs</h3>
-            <p className="text-gray-600">Automated trip documentation</p>
-          </div>
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-red-500 text-4xl mb-4">
+      <i className="fas fa-shield-alt"></i> {/* Protection/Shield Icon */}
+    </div>
+    <h3 className="text-xl font-semibold mb-2">Coverage Protection</h3>
+    <p className="text-gray-600">
+      Get coverage for theft, accident, natural disasters, and more
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-red-500 text-4xl mb-4">
-              <i className="fas fa-phone-alt"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Direct Service</h3>
-            <p className="text-gray-600">Traditional communication option</p>
-          </div>
-        </div>
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-red-500 text-4xl mb-4">
+      <i className="fas fa-headset"></i> {/* Customer Support Icon */}
+    </div>
+    <h3 className="text-xl font-semibold mb-2">Claim Assistance</h3>
+    <p className="text-gray-600">
+      Fast and easy insurance claim support with expert help
+    </p>
+  </div>
+</div>
+
 
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">
-            {/* Vehicle Image Side */}
+            {/* Car Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-               <ImageSlider images={[
+                <ImageSlider images={[
                   "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
                   "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
                   "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
@@ -137,16 +162,16 @@ const AppDuty = () => {
                   </label>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <input 
-                        type="text" 
+                      <input
+                        type="text"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
                       <div className="text-sm text-gray-600 mt-1">First</div>
                     </div>
                     <div>
-                      <input 
-                        type="text" 
+                      <input
+                        type="text"
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
@@ -160,8 +185,8 @@ const AppDuty = () => {
                   <label className="block text-gray-700 mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                     required
                   />
@@ -172,8 +197,8 @@ const AppDuty = () => {
                   <label className="block text-gray-700 mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
-                  <input 
-                    type="tel" 
+                  <input
+                    type="tel"
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                     required
                   />
@@ -184,8 +209,8 @@ const AppDuty = () => {
                   <label className="block text-gray-700 mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
-                  <textarea 
-                    rows="5" 
+                  <textarea
+                    rows="5"
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 resize-none"
                     required
                   ></textarea>
@@ -209,4 +234,4 @@ const AppDuty = () => {
   );
 };
 
-export default AppDuty;
+export default Vehicle;

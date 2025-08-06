@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://www.amdelaa.com/assets/uploads/media-uploader/img-20231011-wa00051697043998.jpg",
+  "https://globetruckingpunjab.com/images/library/general/Bharat-benz-Staff-Bus.jpg",
+  "https://globetruckingpunjab.com/images/library/general/1%20Globe%20Trucking.jpeg",
+  "https://www.prabaltrucking.com/wp-content/uploads/2019/05/Staff-Bus.jpg",
+  "https://img.freepik.com/premium-photo/white-passenger-bus-isola_826551-14778.jpg?semt=ais_hybrid&w=740&q=80"
+];
 
 const EmployeeTransport = () => {
   return (
@@ -68,42 +78,45 @@ const EmployeeTransport = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://5.imimg.com/data5/SELLER/Default/2023/2/OL/VM/VX/152044382/employee-transportation-services.jpeg" 
-              alt="Airport Pickup Service" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
         {/* Additional Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-yellow-500 text-4xl mb-4">
-              <i className="fas fa-plane-arrival"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Flight Monitoring</h3>
-            <p className="text-gray-600">Real-time flight tracking for timely service</p>
-          </div>
+     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-yellow-500 text-4xl mb-4">
+      <i className="fas fa-user-tie"></i>
+    </div>
+    <h3 className="text-xl font-semibold mb-2">Corporate Employee Transport</h3>
+    <p className="text-gray-600">
+      Reliable daily commute services for employees across all major zones
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-yellow-500 text-4xl mb-4">
-              <i className="fas fa-clock"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-            <p className="text-gray-600">Available round the clock for your convenience</p>
-          </div>
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-yellow-500 text-4xl mb-4">
+      <i className="fas fa-clock"></i>
+    </div>
+    <h3 className="text-xl font-semibold mb-2">On-Time Pickups & Drops</h3>
+    <p className="text-gray-600">
+      Timely and well-coordinated schedules to ensure smooth employee transit
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div className="text-yellow-500 text-4xl mb-4">
-              <i className="fas fa-handshake"></i>
-            </div>
-            <h3 className="text-xl font-semibold mb-2">Meet & Greet</h3>
-            <p className="text-gray-600">Professional greeting service at the airport</p>
-          </div>
-        </div>
+  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
+    <div className="text-yellow-500 text-4xl mb-4">
+      <i className="fas fa-shield-alt"></i>
+    </div>
+    <h3 className="text-xl font-semibold mb-2">Safety & Tracking</h3>
+    <p className="text-gray-600">
+      Live vehicle tracking and verified drivers for secure employee travel
+    </p>
+  </div>
+</div>
+
 
         {/* Contact Form Section */}
         <div className="mt-24">
@@ -111,11 +124,13 @@ const EmployeeTransport = () => {
             {/* Car Image Side */}
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
-                  alt="Airport Transfer Car" 
-                  className="w-full h-auto"
-                />
+               <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -200,4 +215,4 @@ const EmployeeTransport = () => {
   );
 };
 
-export default EmployeeTransport; 
+export default EmployeeTransport;

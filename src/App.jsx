@@ -16,6 +16,7 @@ import TourPackage from './Components/Services/TourPackage';
 import CorporateTour from './Components/Services/CorporateTour';
 import EventVehicles from './Components/Services/EventVehicles';
 import AppDuty from './Components/Services/AppDuty';
+import Vehicle from './Components/Services/vehicle';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
             <Route path="/services/corporate-tour" element={<CorporateTour />} />
             <Route path="/services/event-vehicles" element={<EventVehicles />} />
             <Route path="/services/app-duty" element={<AppDuty />} />
+            <Route path="/services/vehicle" element={<Vehicle />} />
+
+                   
           </Routes>
         </main>
         <Footer />
@@ -49,7 +53,6 @@ function App() {
 }
 
 export default App;
-
 
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import ImageSlider from '../ImageSlider';
 
 const Grouptour = () => {
   return (
@@ -81,12 +82,16 @@ const Grouptour = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img
-              src="https://cdn.pixabay.com/photo/2016/02/05/10/17/tour-1180673_1280.jpg"
-              alt="Group Tour Service"
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
+            <ImageSlider 
+              images={[
+                "https://cdn.pixabay.com/photo/2016/02/05/10/17/tour-1180673_1280.jpg",
+                "https://media.istockphoto.com/id/1189969435/photo/happy-big-family-hugging-together-in-mountains.jpg?s=612x612&w=0&k=20&c=kosPFr4Tcl8UmLLNog0MJ1Reuzt9kTvjLoKB0fPl96M=",
+                "https://t3.ftcdn.net/jpg/04/20/41/68/360_F_420416800_vPkzecZfQOEUZwWgTDrMHVxfHpGu4sQp.jpg",
+                "https://images.unsplash.com/photo-1639763703351-c27defbb51b1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRyYXZlbCUyMGdyb3VwfGVufDB8fDB8fHww",
+                "https://www.shutterstock.com/image-photo/venice-italy-september-18-2022-600nw-2364777167.jpg"
+              ]} 
             />
           </div>
         </div>
@@ -127,14 +132,16 @@ const Grouptour = () => {
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">
-            {/* Car Image Side */}
+            {/* Car Image Slider Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img
-                  src="https://www.cochintourstravelss.com/images/car/detail/toyota-innova-economy-car.webp"
-                  alt="Group Transport Vehicle"
-                  className="w-full h-auto"
-                />
+               <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 

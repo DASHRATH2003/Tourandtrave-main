@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://www.ayodhyatourism.online/assets/images/ayodhya-temple.webp",
+  "https://www.ayodhyacarhire.com/wp-content/uploads/2024/04/prem-mandir-1200x900.jpg",
+  "https://saishishirtours.in/wp-content/uploads/2024/05/bhimashankar-jyotirlinga-temple.webp",
+  "https://devbhomidarshan.com/wp-content/uploads/2024/04/pexels-alok-kumar-15031440-2-1024x683.jpg",
+  "https://www.adigasyatra.com/admin/uploads/gallery/1652187498.jpeg"
+];
 
 const TourPackage = () => {
   return (
@@ -73,13 +83,9 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
 </div>
 
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://www.ayodhyatourism.online/assets/images/ayodhya-temple.webp" 
-              alt="Tour Package" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
@@ -116,11 +122,13 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
             {/* Tour Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://i.pinimg.com/736x/c3/40/81/c34081613bd982d39c553f84354233b7.jpg" 
-                  alt="Tour Location" 
-                  className="w-full h-auto"
-                />
+                <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -206,4 +214,4 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
   );
 };
 
-export default TourPackage; 
+export default TourPackage;

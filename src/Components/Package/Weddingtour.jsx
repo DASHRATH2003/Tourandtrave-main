@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
 
 const Weddingtour = () => {
   return (
@@ -74,12 +75,16 @@ as a couple extra special.
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://thumbs.dreamstime.com/b/beach-wedding-canopy-set-up-ocean-background-54592547.jpg " 
-              alt="Wedding Tour Service" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
+            <ImageSlider 
+              images={[
+                "https://thumbs.dreamstime.com/b/beach-wedding-canopy-set-up-ocean-background-54592547.jpg",
+                "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+                "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?cs=srgb&dl=pexels-viresh-studio-1444442.jpg&fm=jpg",
+                "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VkZGluZyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+                "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              ]} 
             />
           </div>
         </div>
@@ -114,14 +119,16 @@ as a couple extra special.
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">   
-            {/* Car Image Side */}
+            {/* Car Image Slider Side */}
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://5.imimg.com/data5/SELLER/Default/2023/4/303877884/JD/MA/FW/38978360/innova-crysta-wedding-car-rental-service.jpeg" 
-                  alt="Luxury Wedding Car" 
-                  className="w-full h-auto"
-                />
+                <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 

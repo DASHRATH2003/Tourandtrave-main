@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXZlbnR8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXZlbnR8ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGV2ZW50fGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1522158637959-30385a09e0da?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://plus.unsplash.com/premium_photo-1663089174939-5870e2e8d62e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+];
 
 const EventVehicles = () => {
   return (
@@ -67,13 +77,9 @@ const EventVehicles = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://thumbs.dreamstime.com/b/haribo-vehicles-le-markstein-france-july-passing-publicity-caravan-road-to-mountain-pass-le-markstein-45163106.jpg" 
-              alt="Event Vehicles" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
@@ -110,11 +116,13 @@ const EventVehicles = () => {
             {/* Vehicle Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://5.imimg.com/data5/SELLER/Default/2024/5/420204787/ZH/YU/XU/222470133/innova-hycross-car-rent-bangalore-500x500.jpeg" 
-                  alt="Luxury Vehicle" 
-                  className="w-full h-auto"
-                />
+                <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -200,4 +208,4 @@ const EventVehicles = () => {
   );
 };
 
-export default EventVehicles; 
+export default EventVehicles;

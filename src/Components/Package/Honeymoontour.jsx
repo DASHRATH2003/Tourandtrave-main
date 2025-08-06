@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
 
 const Honeymoontour = () => {
   return (
@@ -74,7 +75,7 @@ const Honeymoontour = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <i className="fas fa-check-circle text-yellow-500"></i>
-                  <span className="text-gray-700">Professional Drivers</span>
+                  <span className="text-gray-700">Professional chauffeur</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <i className="fas fa-check-circle text-yellow-500"></i>
@@ -84,12 +85,16 @@ const Honeymoontour = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://5.imimg.com/data5/SELLER/Default/2022/6/GI/LV/SJ/2217954/andaman-honeymoon-tour-package-b-service.jpg" 
-              alt="Honeymoon Tour Service" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
+            <ImageSlider 
+              images={[
+                "https://5.imimg.com/data5/SELLER/Default/2022/6/GI/LV/SJ/2217954/andaman-honeymoon-tour-package-b-service.jpg",
+                "https://t4.ftcdn.net/jpg/01/78/64/83/360_F_178648334_ZUgB7yHG2vv89LOJ22OIxbqtIbUh42GT.jpg",
+                "https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1024960.jpg&fm=jpg",
+                "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9uZXltb29ufGVufDB8fDB8fHww&w=1000&q=80",
+                "https://img.freepik.com/premium-photo/couple-relaxing-beach-sunset_1282314-1704.jpg"
+              ]} 
             />
           </div>
         </div>
@@ -124,14 +129,16 @@ const Honeymoontour = () => {
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">   
-            {/* Car Image Side */}
+            {/* Car Image Slider Side */}
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://dreamcabservice.com/wp-content/uploads/2024/08/innova.png" 
-                  alt="Luxury Honeymoon Car" 
-                  className="w-full h-auto"
-                />
+                <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 

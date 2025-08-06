@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://images.unsplash.com/photo-1727871046152-93ca42358580?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG91ciUyMHJhaWx3YXklMjBzdGF0aW9ufGVufDB8fDB8fHww",
+  "https://images.unsplash.com/photo-1695114095002-e7fb2064d1e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3VyJTIwcmFpbHdheSUyMHN0YXRpb258ZW58MHx8MHx8fDA%3D",
+  "https://images.unsplash.com/photo-1745970426350-0f888c4b73bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG91ciUyMHJhaWx3YXklMjBzdGF0aW9ufGVufDB8fDB8fHww",
+  "https://media.istockphoto.com/id/927826322/photo/passenger-train-at-chhatrapati-shivaji-maharaj-terminus-in-mumbai.webp?a=1&b=1&s=612x612&w=0&k=20&c=rHhY3p-Z5QPKzzwPdBoBNzzRULZxlx12U1JYzCW3ogc=",
+  "https://media.istockphoto.com/id/1691762767/photo/train-railway-station-photography.webp?a=1&b=1&s=612x612&w=0&k=20&c=Wf1s11AK5KuB2wtUsccqLwyaJAwAPuEmXFkfWzkUn1o="
+];
 
 const OutStation = () => {
   return (
@@ -70,13 +80,9 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://media.istockphoto.com/id/538562985/photo/passenger-on-platforms-at-the-railway-station-of-jaipur.jpg?s=612x612&w=0&k=20&c=6zcVTV0rGUUbebqw4hkYPdEoMDHXz7AQfuyU7wvbFCU=" 
-              alt="Outstation Travel" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
@@ -113,11 +119,13 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
             {/* Car Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
-                  alt="Outstation Car" 
-                  className="w-full h-auto"
-                />
+               <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -203,4 +211,4 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
   );
 };
 
-export default OutStation; 
+export default OutStation;

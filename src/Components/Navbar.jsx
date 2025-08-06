@@ -35,7 +35,9 @@ const Navbar = () => {
     { name: 'Tour Package Services', path: '/services/tour-package' },
     { name: 'Corporate Tour Services', path: '/services/corporate-tour' },
     { name: 'Vehicles for Events & Tours', path: '/services/event-vehicles' },
-    { name: 'With App Duty/Without App Duty', path: '/services/app-duty' }
+    { name: 'With App Duty/Without App Duty', path: '/services/app-duty' },
+    {name:'Vehicle Insorence service',path:'/services/vehicle'},
+    
   ];
 
   return (

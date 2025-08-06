@@ -1,9 +1,64 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ImageSlider from './ImageSlider';
 
 const CarList = () => {
   // Car data based on the image
   const cars = [
+    {
+      id: 13,
+      name: 'Luxury White Car 1',
+      image: 'https://i.postimg.cc/kMwkFSh9/laxury1.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 14,
+      name: 'Luxury White Car 2',
+      image: 'https://t3.ftcdn.net/jpg/06/50/57/76/360_F_650577635_GesSMihkw3BjAVXDAKcLeaC8Ec8yUbTq.jpg',
+      seats: 'Luxury'
+    },
+    {
+      id: 15,
+      name: 'Luxury White Car 3',
+      image: 'https://media.istockphoto.com/id/1150425295/photo/3d-illustration-of-generic-hatchback-car-perspective-view.jpg?s=612x612&w=0&k=20&c=vws8oDFjcfGpqNAybWPxsA9XROdcBh2MXW2PGEDgk-8=',
+      seats: 'Luxury'
+    },
+    {
+      id: 16,
+      name: 'Luxury White Car 4',
+      image: 'https://i.postimg.cc/kG5YhjhC/laxury4.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 17,
+      name: 'Luxury White Car 5',
+      image: 'https://i.postimg.cc/Y9rdhn7F/laxury5.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 18,
+      name: 'Luxury White Car 6',
+      image: 'https://i.postimg.cc/gkXNXLCg/laxury6.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 19,
+      name: 'Luxury White Car 7',
+      image: 'https://i.postimg.cc/NjRDbqfT/laxery7.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 20,
+      name: 'Luxury White Car 8',
+      image: 'https://c4.wallpaperflare.com/wallpaper/863/488/920/ferrari-458-white-car-wallpaper-preview.jpg',
+      seats: 'Luxury'
+    },
+    {
+      id: 21,
+      name: 'Luxury White Car 9',
+      image: 'https://c4.wallpaperflare.com/wallpaper/809/225/171/ferrari-458-white-photo-6-wallpaper-preview.jpg',
+      seats: 'Luxury'
+    },
     {
       id: 1,
       name: 'Etios or Desire (Sedan)',

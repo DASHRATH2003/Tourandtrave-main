@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://5.imimg.com/data5/SELLER/Default/2024/2/388918827/HY/SC/PM/103718232/mumbai-airport-pickup-drop.png",
+  "https://wallpapercrafter.com/desktop6/1506279-vehicle-transportation-system-car-airplane-engine.jpg",
+  "https://c4.wallpaperflare.com/wallpaper/239/360/907/airport-airplane-tilt-shift-wallpaper-preview.jpg",
+  "https://www.seekpng.com/png/full/56-568053_airport-shuttle-lincoln-towncar-private-car-service.png",
+  "https://w7.pngwing.com/pngs/534/1022/png-transparent-datsun-go-car-nissan-datsun-redi-go-car.png"
+];
 
 const AirportPickup = () => {
   return (
@@ -77,13 +87,9 @@ const AirportPickup = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://thumbs.dreamstime.com/b/family-traveling-airport-luggage-dreamstime-ai-generated-your-design-360609661.jpg" 
-              alt="Airport Pickup Service" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
@@ -120,11 +126,13 @@ const AirportPickup = () => {
             {/* Car Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg" 
-                  alt="Airport Transfer Car" 
-                  className="w-full h-auto"
-                />
+                <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -210,4 +218,4 @@ const AirportPickup = () => {
   );
 };
 
-export default AirportPickup; 
+export default AirportPickup;

@@ -1,4 +1,14 @@
 import React from 'react';
+import ImageSlider from '../ImageSlider';
+
+// Images for slider
+const sliderImages = [
+  "https://5.imimg.com/data5/DL/CT/GLADMIN-47171644/corporate-tours-service.png",
+  "https://media.istockphoto.com/id/1343847065/photo/multi-ethnic-people-going-on-business-trip.jpg?s=612x612&w=0&k=20&c=kVq0glJjcH24KflUtAhFmFSy747YprHt9OHH_ro1hf8=",
+  "https://img.freepik.com/free-photo/full-length-handsome-young-man-suit-walking-with-luggage-outside-office-building_662251-2111.jpg",
+  "https://media.istockphoto.com/id/1489123986/photo/travel-for-business-team-at-airport-and-men-catch-flight-for-work-trip-with-conference-or.jpg?s=612x612&w=0&k=20&c=TtfyyN-mkRKAHiOcmNV5IHOWSuL2THEmPgCWXlj7EBM=",
+  "https://media.istockphoto.com/id/1485259982/photo/travel-passport-and-phone-with-black-man-in-airport-for-social-media-business-trip-and-and.jpg?s=612x612&w=0&k=20&c=9xA_xPtII5F9tFn1cEw22ONgHimsf_a7M_IEHeo6Wzo="
+];
 
 const CorporateTour = () => {
   return (
@@ -68,13 +78,9 @@ const CorporateTour = () => {
             </div>
           </div>
 
-          {/* Image */}
+          {/* Image Slider */}
           <div className="md:w-1/2">
-            <img 
-              src="https://5.imimg.com/data5/DL/CT/GLADMIN-47171644/corporate-tours-service.png" 
-              alt="Corporate Tour" 
-              className="rounded-lg shadow-xl w-full h-[400px] object-cover"
-            />
+            <ImageSlider images={sliderImages} />
           </div>
         </div>
 
@@ -111,11 +117,13 @@ const CorporateTour = () => {
             {/* Vehicle Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
-                <img 
-                  src="https://e1.pxfuel.com/desktop-wallpaper/1006/611/desktop-wallpaper-toyota-innova-crysta-innova-car.jpg" 
-                  alt="Corporate Vehicle" 
-                  className="w-full h-auto"
-                />
+               <ImageSlider images={[
+                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
+                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
+                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
+                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                ]} />
               </div>
             </div>
 
@@ -201,4 +209,4 @@ const CorporateTour = () => {
   );
 };
 
-export default CorporateTour; 
+export default CorporateTour;
