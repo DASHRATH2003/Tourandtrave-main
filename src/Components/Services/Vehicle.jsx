@@ -26,7 +26,7 @@ const Vehicle = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Vehicle insorence service
+            Vehicle insurance service
           </h1>
           <p className="text-white text-lg leading-relaxed">
             We also offer comprehensive vehicle insurance services tailored to
