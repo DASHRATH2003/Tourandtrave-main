@@ -16,7 +16,7 @@ import TourPackage from './Components/Services/TourPackage';
 import CorporateTour from './Components/Services/CorporateTour';
 import EventVehicles from './Components/Services/EventVehicles';
 import AppDuty from './Components/Services/AppDuty';
-import Vehicle from './Components/Services/vehicle';
+import Vehicle from './Components/Services/Vehicle';
 
 function App() {
   return (
