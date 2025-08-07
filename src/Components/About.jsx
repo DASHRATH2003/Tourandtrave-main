@@ -117,7 +117,7 @@ const About = () => {
     <div className="pt-16 md:pt-20">
       {/* About Us Header */}
       <div
-        className="relative bg-cover bg-center bg-no-repeat py-12 md:py-16"
+        className="relative bg-cover -mt-20 bg-center bg-no-repeat py-12 md:py-16"
         style={{
           backgroundImage:
             "url('https://t3.ftcdn.net/jpg/03/01/48/18/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg')",
