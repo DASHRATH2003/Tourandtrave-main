@@ -7,7 +7,7 @@ const sliderImages = [
   "https://www.shutterstock.com/image-photo/touring-car-roof-cargo-box-600nw-2607308571.jpg",
   "https://www.henrys-cars.com/uploads/articles/full_text/d597d9485ed548afe9a9dd1a3576edf2a6a017e1.jpg",
   "https://www.henrys-cars.com/uploads/editor/1719318444-5th-image.jpg",
-  "https://thumbs.dreamstime.com/b/car-trunk-loaded-bags-luggage-holiday-departures-69166885.jpg"
+  "https://media.istockphoto.com/id/1316785640/photo/silver-car-with-black-roof-luggage-box-driving-on-the-road.jpg?s=612x612&w=0&k=20&c=CB_bXpfgvl-TKbbxyRbgeg43Rxwn2Be3Ex0ofj84Wf8="
 ];
 
 const OutStation = () => {
