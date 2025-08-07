@@ -705,7 +705,7 @@ const Home = () => {
               </div>
               <div className="p-4">
                 <h3 className="text-center text-gray-800 font-medium">
-                  Vehicle insorence service
+                  Vehicle insurance service
                 </h3>
               </div>
             </div>
