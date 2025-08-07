@@ -3,11 +3,11 @@ import ImageSlider from '../ImageSlider';
 
 // Images for slider
 const sliderImages = [
-  "https://images.unsplash.com/photo-1727871046152-93ca42358580?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG91ciUyMHJhaWx3YXklMjBzdGF0aW9ufGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1695114095002-e7fb2064d1e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8b3VyJTIwcmFpbHdheSUyMHN0YXRpb258ZW58MHx8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1745970426350-0f888c4b73bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG91ciUyMHJhaWx3YXklMjBzdGF0aW9ufGVufDB8fDB8fHww",
-  "https://media.istockphoto.com/id/927826322/photo/passenger-train-at-chhatrapati-shivaji-maharaj-terminus-in-mumbai.webp?a=1&b=1&s=612x612&w=0&k=20&c=rHhY3p-Z5QPKzzwPdBoBNzzRULZxlx12U1JYzCW3ogc=",
-  "https://media.istockphoto.com/id/1691762767/photo/train-railway-station-photography.webp?a=1&b=1&s=612x612&w=0&k=20&c=Wf1s11AK5KuB2wtUsccqLwyaJAwAPuEmXFkfWzkUn1o="
+  "https://img.freepik.com/premium-photo/rooftop-cargo-carrier-bag-rear-view-car-with-roof-box-alpine-highway-black-roof-box-sporty-white-wagon-family-car-removable-black-car-trunk-luggage-roof-car_782515-7524.jpg",
+  "https://www.shutterstock.com/image-photo/touring-car-roof-cargo-box-600nw-2607308571.jpg",
+  "https://www.henrys-cars.com/uploads/articles/full_text/d597d9485ed548afe9a9dd1a3576edf2a6a017e1.jpg",
+  "https://www.henrys-cars.com/uploads/editor/1719318444-5th-image.jpg",
+  "https://thumbs.dreamstime.com/b/car-trunk-loaded-bags-luggage-holiday-departures-69166885.jpg"
 ];
 
 const OutStation = () => {
@@ -26,7 +26,7 @@ const OutStation = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Our Station
+            Out Station
           </h1>
           <p className="text-white text-lg leading-relaxed">
           With strategically located stations across Bangalore and other major cities, 
