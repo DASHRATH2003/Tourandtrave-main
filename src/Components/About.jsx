@@ -114,10 +114,10 @@ const About = () => {
   ];
 
   return (
-    <div className="pt-20">
+    <div className="pt-16 md:pt-20">
       {/* About Us Header */}
       <div
-        className="relative bg-cover bg-center bg-no-repeat py-16 mt-[-100px]"
+        className="relative bg-cover bg-center bg-no-repeat py-12 md:py-16"
         style={{
           backgroundImage:
             "url('https://t3.ftcdn.net/jpg/03/01/48/18/360_F_301481839_p4RvuPBeFTeNvDXyl2ez822gZhQ7ZWEF.jpg')",
@@ -126,129 +126,138 @@ const About = () => {
         {/* Optional Overlay */}
         <div className="absolute inset-0 bg-black/50 z-0"></div>
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6">
-          <h1 className="text-5xl font-bold text-white text-left mb-6">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6">
+          <h1 className="text-3xl md:text-5xl font-bold text-white text-left mb-4 md:mb-6">
             About Us
           </h1>
-          <p className="text-white text-lg leading-relaxed">
+          <p className="text-white text-base md:text-lg leading-relaxed">
             We are a passionate team committed to delivering top-quality
             services and experiences to our clients. Our mission is to provide
             reliable solutions tailored to your needs— whether it's
             transportation, event planning, or corporate tours.
           </p>
         </div>
-        {/* Social Links */}
-        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+
+        {/* Desktop Social Links */}
+        <div className="hidden md:block fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
           <div className="flex flex-col gap-2">
             <a
-              href="https://wa.me/your-number"
+              href="https://wa.me/+919916599719"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
+              className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors group relative"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
+              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+                WhatsApp: +919916599719
+              </span>
             </a>
             <a
-              href="tel:your-number"
-              className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
+              href="tel:+919916599719"
+              className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors group relative"
             >
               <i className="fas fa-phone text-2xl"></i>
+              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+                Call: +919916599719
+              </span>
             </a>
             <a
-              href="mailto:your-email"
-              className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
+              href="mailto:infovtt@varshadhaaratours.com"
+              className="bg-black text-white p-3 hover:bg-gray-800 transition-colors group relative"
             >
               <i className="fas fa-envelope text-2xl"></i>
+              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+                Email: infovtt@varshadhaaratours.com
+              </span>
+            </a>
+          </div>
+        </div>
+
+        {/* Mobile Social Links */}
+        <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50">
+          <div className="flex justify-around py-3">
+            <a
+              href="https://wa.me/+919916599719"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition-colors"
+            >
+              <i className="fab fa-whatsapp text-xl"></i>
+            </a>
+            <a
+              href="tel:+919916599719"
+              className="bg-blue-500 text-white p-3 rounded-full hover:bg-blue-600 transition-colors"
+            >
+              <i className="fas fa-phone text-xl"></i>
+            </a>
+            <a
+              href="mailto:infovtt@varshadhaaratours.com"
+              className="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition-colors"
+            >
+              <i className="fas fa-envelope text-xl"></i>
             </a>
           </div>
         </div>
       </div>
 
       {/* About Content */}
-      <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col md:flex-row items-center gap-12">
+      <div className="container mx-auto px-4 py-8 md:py-16">
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           {/* Image Slider Side */}
-          <div className="md:w-1/2">
+          <div className="w-full md:w-1/2">
             <ImageSlider />
           </div>
           {/* Text Side */}
-          <div className="md:w-1/2">
-            <h2 className="text-4xl font-bold text-yellow-700 mb-6">
+          <div className="w-full md:w-1/2">
+            <h2 className="text-3xl md:text-4xl font-bold text-yellow-700 mb-4 md:mb-6">
               Welcome to VARSHADHAARA
             </h2>
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
               VARSHADHAARA Tours And Travels Pvt Ltd is a company that serves
               business and clients who require professional, friendly and
               efficient organization of their outbound and inbound travel &
               tourism needs. We are known for providing quality services and
               have maintained a disciplined and friendly relationship with the
               company and the employees.
-            </p>{" "}
+            </p>
             <br />
-            <p>
+            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
               Looking for a travel partner who understands your needs? We bring
               you tailor-made domestic and international packages, corporate
               travel solutions, and unmatched customer support. Your perfect
               journey starts with us – professional, reliable, and always one
               step ahead.
             </p>
-          </div>{" "}
-          <br />
+          </div>
         </div>
 
         {/* Stats Section */}
-        <div className="bg-yellow-400 py-16 mt-16">
+        <div className="bg-yellow-400 py-8 md:py-16 mt-8 md:mt-16 rounded-lg">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
               {stats.map((stat, index) => (
-                <div key={index} className="text-white">
-                  <div className="text-5xl font-bold mb-2">
+                <div key={index} className="text-white p-4">
+                  <div className="text-3xl md:text-5xl font-bold mb-2">
                     <CountUpNumber end={stat.number} />
                     {stat.number !== 9 && "+"}
                   </div>
-                  <div className="text-xl">{stat.label}</div>
+                  <div className="text-base md:text-xl">{stat.label}</div>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* Social Links */}
-          <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
-            <div className="flex flex-col gap-2">
-              <a
-                href="https://wa.me/your-number"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
-              >
-                <i className="fab fa-whatsapp text-2xl"></i>
-              </a>
-              <a
-                href="tel:your-number"
-                className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
-              >
-                <i className="fas fa-phone text-2xl"></i>
-              </a>
-              <a
-                href="mailto:your-email"
-                className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
-              >
-                <i className="fas fa-envelope text-2xl"></i>
-              </a>
             </div>
           </div>
         </div>
 
         {/* Objective and Operations Section */}
-        <div className="container mx-auto px-4 py-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="container mx-auto px-4 py-8 md:py-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Our Objective */}
-            <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6 text-gray-800">
                 Our Objective
               </h2>
-              <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
-              <p className="text-gray-700 text-lg leading-relaxed text-center">
+              <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6 md:mb-8"></div>
+              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center">
                 Proactively understand and meet client needs by constantly
                 challenging ourselves to adopt innovative mobility solutions
                 that will revolutionise the industry. Maintain constant and
@@ -259,12 +268,12 @@ const About = () => {
             </div>
 
             {/* Our Operations */}
-            <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 md:mb-6 text-gray-800">
                 Our Operations
               </h2>
-              <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
-              <p className="text-gray-700 text-lg leading-relaxed text-center">
+              <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6 md:mb-8"></div>
+              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center">
                 By operating 24 hours a day and 365 days in a year we ensure no
                 demands go unattended, unsatisfied. In order to ensure error
                 free and smooth service, we have appointed staffs specially to
@@ -276,60 +285,35 @@ const About = () => {
         </div>
 
         {/* Additional Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-16">
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
-            <i className="fas fa-users text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-xl font-semibold mb-2">Expert Team</h3>
-            <p className="text-gray-600">
+            <i className="fas fa-users text-3xl md:text-4xl text-yellow-400 mb-4"></i>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">Expert Team</h3>
+            <p className="text-gray-600 text-sm md:text-base">
               Dedicated professionals with years of experience in travel
               industry
             </p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
-            <i className="fas fa-clock text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
-            <p className="text-gray-600">
+            <i className="fas fa-clock text-3xl md:text-4xl text-yellow-400 mb-4"></i>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">24/7 Support</h3>
+            <p className="text-gray-600 text-sm md:text-base">
               Round-the-clock assistance for all your travel needs
             </p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
-            <i className="fas fa-shield-alt text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-xl font-semibold mb-2">Safe Travel</h3>
-            <p className="text-gray-600">
+            <i className="fas fa-shield-alt text-3xl md:text-4xl text-yellow-400 mb-4"></i>
+            <h3 className="text-lg md:text-xl font-semibold mb-2">Safe Travel</h3>
+            <p className="text-gray-600 text-sm md:text-base">
               Your safety is our top priority during all journeys
             </p>
-          </div>
-        </div>
-
-        {/* Social Links */}
-        <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
-          <div className="flex flex-col gap-2">
-            <a
-              href="https://wa.me/your-number"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors"
-            >
-              <i className="fab fa-whatsapp text-2xl"></i>
-            </a>
-            <a
-              href="tel:your-number"
-              className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors"
-            >
-              <i className="fas fa-phone text-2xl"></i>
-            </a>
-            <a
-              href="mailto:your-email"
-              className="bg-black text-white p-3 hover:bg-gray-800 transition-colors"
-            >
-              <i className="fas fa-envelope text-2xl"></i>
-            </a>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default About;
 
 
