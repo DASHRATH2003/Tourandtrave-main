@@ -163,6 +163,15 @@ const Navbar = () => {
                   >
                     Honeymoon Tour
                   </Link>
+                  <Link
+                    to="/package/ResortPackage"
+                    onClick={scrollToTop}
+                    className={`block px-4 py-2 text-sm ${
+                      location.pathname === '/package/ResortPackage' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
+                    } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
+                  >
+                    Resort Package
+                  </Link>
                 </div>
               )}
             </div>
@@ -329,6 +338,15 @@ const Navbar = () => {
                   } hover:text-yellow-500 transition-colors`}
                 >
                   Honeymoon Tour
+                </Link>
+                <Link
+                  to="/package/ResortPackage"
+                  onClick={scrollToTop}
+                  className={`block text-sm font-semibold ${
+                    location.pathname === '/package/ResortPackage' ? 'text-yellow-500' : 'text-white'
+                  } hover:text-yellow-500 transition-colors`}
+                >
+                  Resort Package
                 </Link>
               </div>
             </div>

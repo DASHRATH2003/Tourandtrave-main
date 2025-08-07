@@ -7,58 +7,77 @@ const CarList = () => {
   const cars = [
     {
       id: 13,
-      name: 'Luxury White Car 1',
+      name: 'BMW 7 Series',
       image: 'https://i.postimg.cc/kMwkFSh9/laxury1.png',
       seats: 'Luxury'
     },
     {
       id: 14,
-      name: 'Luxury White Car 2',
+      name: 'Mercedes-Benz S-Class',
       image: 'https://t3.ftcdn.net/jpg/06/50/57/76/360_F_650577635_GesSMihkw3BjAVXDAKcLeaC8Ec8yUbTq.jpg',
       seats: 'Luxury'
     },
     {
       id: 15,
-      name: 'Luxury White Car 3',
+      name: 'Audi A8 L',
       image: 'https://media.istockphoto.com/id/1150425295/photo/3d-illustration-of-generic-hatchback-car-perspective-view.jpg?s=612x612&w=0&k=20&c=vws8oDFjcfGpqNAybWPxsA9XROdcBh2MXW2PGEDgk-8=',
       seats: 'Luxury'
     },
     {
       id: 16,
-      name: 'Luxury White Car 4',
+      name: 'Ferrari 488 GTB',
       image: 'https://i.postimg.cc/kG5YhjhC/laxury4.png',
       seats: 'Luxury'
     },
     {
       id: 17,
-      name: 'Luxury White Car 5',
+      name: 'Lamborghini Huracán',
       image: 'https://i.postimg.cc/Y9rdhn7F/laxury5.png',
       seats: 'Luxury'
     },
     {
       id: 18,
-      name: 'Luxury White Car 6',
+      name: 'Rolls-Royce Ghost',
       image: 'https://i.postimg.cc/gkXNXLCg/laxury6.png',
       seats: 'Luxury'
     },
     {
       id: 19,
-      name: 'Luxury White Car 7',
+      name: 'BMW M5',
       image: 'https://i.postimg.cc/NjRDbqfT/laxery7.png',
       seats: 'Luxury'
     },
     {
       id: 20,
-      name: 'Luxury White Car 8',
+      name: 'Ferrari F8 Tributo',
       image: 'https://c4.wallpaperflare.com/wallpaper/863/488/920/ferrari-458-white-car-wallpaper-preview.jpg',
       seats: 'Luxury'
     },
     {
       id: 21,
-      name: 'Luxury White Car 9',
+      name: 'Ferrari 458 Italia',
       image: 'https://c4.wallpaperflare.com/wallpaper/809/225/171/ferrari-458-white-photo-6-wallpaper-preview.jpg',
       seats: 'Luxury'
     },
+    {
+      id: 22,
+      name: 'Kia Seltos',
+      image: 'https://img.autocarindia.com/Galleries/20190708023903_Kia-Seltos-white.jpg?w=640&q=75',
+      seats: '5'
+    },
+    {
+      id: 23,
+      name: 'Kia Carens',
+      image: 'https://www.cartoq.com/wp-content/uploads/2023/05/kia-carens-premium-to-xline-1.jpg',
+      seats: '7'
+    },
+    {
+      id: 24,
+      name: 'Kia Carnival',
+      image: 'https://imgd.aeplcdn.com/370x208/n/86elssa_1480025.jpg?q=80',
+      seats: '7'
+    },
+   
     {
       id: 1,
       name: 'Etios or Desire (Sedan)',
@@ -130,7 +149,31 @@ const CarList = () => {
       name: 'Mini Bus 33 Seater (AC)',
       image: '/images/cars/image12.png',
       seats: 33
-    }
+    },
+    {
+      id: 25,
+      name: '40 Seater Bus (AC)',
+      image: 'https://5.imimg.com/data5/SELLER/Default/2023/3/PF/MD/IO/9177426/40-seater-bus-rental-bangalore.jpeg',
+      seats: 40
+    },
+    {
+      id: 26,
+      name: '40 Seater Bus (Non-AC)',
+      image: 'https://5.imimg.com/data5/NS/CR/GY/SELLER-80396449/35-seater-bus-hire-in-bangalore-35-seater-bus-rental-in-bangalore-500x500.jpg',
+      seats: 40
+    },
+    {
+      id: 27,
+      name: '50 Seater Bus (AC)',
+      image: 'https://lh4.googleusercontent.com/proxy/MSD2c_nx7uhLhRZcBBQdaE_i6GuD3sr6wSMVutBm9s30OIKYT47-Awt9J8BUo9dsrQFxsCyplgqnbUmShJejEz1l0kOG',
+      seats: 50
+    },
+    {
+      id: 28,
+      name: '50 Seater Bus (Non-AC)',
+      image: 'https://samarthtravels.com/images/keyword/33.jpg',
+      seats: 50
+    },
   ];
 
   return (
