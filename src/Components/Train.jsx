@@ -130,21 +130,18 @@ const Train = () => {
             </div>
 
             {/* Form Side */}
-            <div className="md:w-1/2">
-              <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Book Your Train Tickets</h2>
-              <p className="text-gray-600 mb-8">Fill out the form below to book your train tickets or to inquire about our train ticket services.</p>
-              
+             <div className="md:w-1/2">
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Full Name <span className="text-yellow-500">*</span>
+                    Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <input 
                         type="text" 
-                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
                       <div className="text-sm text-gray-600 mt-1">First</div>
@@ -152,22 +149,22 @@ const Train = () => {
                     <div>
                       <input 
                         type="text" 
-                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
                       <div className="text-sm text-gray-600 mt-1">Last</div>
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Email Field */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Email <span className="text-yellow-500">*</span>
+                    Email <span className="text-red-500">*</span>
                   </label>
                   <input 
                     type="email" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                     required
                   />
                 </div>
@@ -175,47 +172,23 @@ const Train = () => {
                 {/* Phone Field */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Phone <span className="text-yellow-500">*</span>
+                    Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
                     type="tel" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                     required
                   />
-                </div>
-                
-                {/* Journey Details */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-gray-700 mb-1">
-                      From (Station) <span className="text-yellow-500">*</span>
-                    </label>
-                    <input 
-                      type="text" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-gray-700 mb-1">
-                      To (Station) <span className="text-yellow-500">*</span>
-                    </label>
-                    <input 
-                      type="text" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
-                      required
-                    />
-                  </div>
                 </div>
 
                 {/* Message Field */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Additional Requirements <span className="text-yellow-500">*</span>
+                    Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 
                     rows="5" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 resize-none"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 resize-none"
                     required
                   ></textarea>
                 </div>
@@ -224,9 +197,9 @@ const Train = () => {
                 <div>
                   <button
                     type="submit"
-                    className="inline-block bg-blue-600 text-white px-8 py-2.5 rounded font-medium hover:bg-blue-700 transition-colors duration-300"
+                    className="inline-block bg-white text-red-500 border-2 border-red-500 px-8 py-2.5 rounded font-medium hover:bg-red-500 hover:text-white transition-colors duration-300"
                   >
-                    BOOK NOW
+                    SEND MESSAGE
                   </button>
                 </div>
               </form>
