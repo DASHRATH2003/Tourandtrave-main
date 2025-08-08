@@ -67,7 +67,7 @@ const EventVehicles = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS provides a wide range of vehicles perfect for events, weddings, corporate functions, and special tours. From luxury cars to spacious buses, we have the right vehicle to match your occasion and group size.
+                Varshadhaara Tours And Travels provides a wide range of vehicles perfect for events, weddings, corporate functions, and special tours. From luxury cars to spacious buses, we have the right vehicle to match your occasion and group size.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our fleet includes well-maintained vehicles with professional drivers, ensuring a comfortable and safe journey for all your special occasions. We specialize in both short-term and long-term vehicle rentals for events.

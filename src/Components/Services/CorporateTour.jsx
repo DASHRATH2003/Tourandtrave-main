@@ -68,7 +68,7 @@ const CorporateTour = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS specializes in organizing corporate tours and team outings that combine business with leisure. We understand the unique requirements of corporate clients and deliver exceptional experiences that strengthen team bonds.
+                Varshadhaara Tours And Travels specializes in organizing corporate tours and team outings that combine business with leisure. We understand the unique requirements of corporate clients and deliver exceptional experiences that strengthen team bonds.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 From team building activities to corporate retreats, we handle all aspects of your corporate tour including transportation, accommodation, meeting facilities, and recreational activities.

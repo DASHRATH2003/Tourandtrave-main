@@ -132,9 +132,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/services/app-duty" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
+                <Link to="/services/Vehicle" className="hover:text-yellow-400 transition-colors flex items-center space-x-2">
                   <FaCar className="text-yellow-400" />
-                  <span>App Duty Services</span>
+                  <span>Vehicle Insurance Service </span>
                 </Link>
               </li>
             </ul>
@@ -151,7 +151,6 @@ const Footer = () => {
               <li className="flex items-center space-x-3">
                 <FaPhone className="flex-shrink-0 text-yellow-400" />
                 <div className="flex flex-col">
-                  <a href="tel:+919916599719" className="hover:text-yellow-400 transition-colors">+91 9916599719</a>
                   <a href="tel:+919916599719" className="hover:text-yellow-400 transition-colors">+91 9916599719</a>
                 </div>
               </li>

@@ -68,7 +68,7 @@ const AppDuty = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS offers flexible duty options with or without app-based tracking. Choose between traditional service or enhanced digital tracking for real-time monitoring of your transportation needs.
+                Varshadhaara Tours And Travels offers flexible duty options with or without app-based tracking. Choose between traditional service or enhanced digital tracking for real-time monitoring of your transportation needs.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our app-based duty service provides advanced features like live tracking, digital duty logs, and instant notifications, while our traditional service maintains the same high quality with manual reporting and direct communication.

@@ -74,7 +74,7 @@ const AirportPickup = () => {
 
 </h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS provides reliable and comfortable airport transfer services in Bangalore. We ensure timely pickup and drop-off services to and from the airport, making your journey stress-free and convenient.
+               Varshadhaara Tours And Travels provides reliable and comfortable airport transfer services in Bangalore. We ensure timely pickup and drop-off services to and from the airport, making your journey stress-free and convenient.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our airport pickup and drop service is designed to provide you with a seamless travel experience. We monitor flight timings and adjust our schedule according to any delays or changes in your flight schedule.

@@ -31,9 +31,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-xl mb-1">Our Location</h3>
                   <p className="text-gray-600">
-                    3rd Block, 7, 2nd Main Rd, Parimala Nagar,<br />
-                    Nandini Layout, Bengaluru,<br />
-                    Karnataka - 560096
+                    #7 2nd main road, 3rd Block<br />
+                    Goraguntepalya<br />
+                   Bangalore - 560022
                   </p>
                 </div>
               </div>

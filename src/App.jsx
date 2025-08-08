@@ -18,6 +18,11 @@ import EventVehicles from './Components/Services/EventVehicles';
 import AppDuty from './Components/Services/AppDuty';
 import Vehicle from './Components/Services/Vehicle';
 
+// Technology Component
+import Technology from './Components/Technology';
+import Train from './Components/Train';
+import Flight from './Components/Flight';
+
 function App() {
   return (
     <Router>
@@ -43,6 +48,10 @@ function App() {
             <Route path="/services/app-duty" element={<AppDuty />} />
             <Route path="/services/vehicle" element={<Vehicle />} />
 
+            {/* Technology Route */}
+            <Route path="/technology" element={<Technology />} />
+            <Route path="/Train" element={<Train />}/>
+            <Route path="/Flight" element={<Flight />}/>
                    
           </Routes>
         </main>

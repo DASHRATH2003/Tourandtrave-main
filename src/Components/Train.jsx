@@ -1,16 +1,17 @@
 import React from 'react';
-import ImageSlider from '../ImageSlider';
+import ImageSlider from './ImageSlider';
 
-// Images for slider
+// Images for slider - Train related images
 const sliderImages = [
-  "https://www.amdelaa.com/assets/uploads/media-uploader/img-20231011-wa00051697043998.jpg",
-  "https://globetruckingpunjab.com/images/library/general/Bharat-benz-Staff-Bus.jpg",
-  "https://globetruckingpunjab.com/images/library/general/1%20Globe%20Trucking.jpeg",
-  "https://www.prabaltrucking.com/wp-content/uploads/2019/05/Staff-Bus.jpg",
-  "https://img.freepik.com/premium-photo/white-passenger-bus-isola_826551-14778.jpg?semt=ais_hybrid&w=740&q=80"
+  
+  "https://content3.jdmagicbox.com/v2/comp/bangalore/y3/080pxx80.xx80.170926165754.l7y3/catalogue/indian-railways-reservation-ticket-counter-bangalore-0i97dbqq3i.jpg"
+];
+const sliderImage = [
+  
+  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
 ];
 
-const EmployeeTransport = () => {
+const Train = () => {
   return (
     <div className="pt-20">
       {/* Header Section */}
@@ -26,11 +27,11 @@ const EmployeeTransport = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Employee Transport
+            Train Ticket Services
           </h1>
           <p className="text-white text-lg leading-relaxed">
-          Our Employee Transport Services are designed to ensure safe, punctual, and hassle-free travel for your workforce. 
-          With a modern fleet of well-maintained vehicles and experienced drivers, we provide end-to-end transportation solutions.
+          Our Train Ticket Services are designed to ensure convenient, reliable, and affordable travel for all your needs. 
+          With easy booking options and excellent customer support, we provide end-to-end train travel solutions.
           </p>
         </div>
 
@@ -88,31 +89,31 @@ const EmployeeTransport = () => {
      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
   <div className="bg-white p-6 rounded-lg shadow-lg text-center">
     <div className="text-yellow-500 text-4xl mb-4">
-      <i className="fas fa-user-tie"></i>
+      <i className="fas fa-train"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Corporate Employee Transport</h3>
+    <h3 className="text-xl font-semibold mb-2">Domestic Train Tickets</h3>
     <p className="text-gray-600">
-      Reliable daily commute services for employees across all major zones
+      Hassle-free booking for all domestic train routes with multiple class options
     </p>
   </div>
 
   <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    <div className="text-yellow-500 text-4xl mb-4">
+    <div className="text-blue-500 text-4xl mb-4">
       <i className="fas fa-clock"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">On-Time Pickups & Drops</h3>
+    <h3 className="text-xl font-semibold mb-2">Tatkal & Premium Tatkal</h3>
     <p className="text-gray-600">
-      Timely and well-coordinated schedules to ensure smooth employee transit
+      Last-minute booking services with Tatkal and Premium Tatkal options to secure confirmed seats even during peak travel seasons
     </p>
   </div>
 
   <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    <div className="text-yellow-500 text-4xl mb-4">
-      <i className="fas fa-shield-alt"></i>
+    <div className="text-green-500 text-4xl mb-4">
+      <i className="fas fa-globe"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Safety & Tracking</h3>
+    <h3 className="text-xl font-semibold mb-2">International Rail Passes</h3>
     <p className="text-gray-600">
-      Live vehicle tracking and verified drivers for secure employee travel
+      Comprehensive international rail passes for seamless travel across multiple countries with flexible duration options
     </p>
   </div>
 </div>
@@ -121,26 +122,23 @@ const EmployeeTransport = () => {
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">   
-            {/* Car Image Side */}
+            {/* Train Image Side */}
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
-               <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
-                ]} />
+               <ImageSlider images={sliderImage} />
               </div>
             </div>
 
             {/* Form Side */}
             <div className="md:w-1/2">
+              <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Book Your Train Tickets</h2>
+              <p className="text-gray-600 mb-8">Fill out the form below to book your train tickets or to inquire about our train ticket services.</p>
+              
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Name <span className="text-yellow-500">*</span>
+                    Full Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
@@ -161,6 +159,7 @@ const EmployeeTransport = () => {
                     </div>
                   </div>
                 </div>
+                
                 {/* Email Field */}
                 <div>
                   <label className="block text-gray-700 mb-1">
@@ -184,11 +183,35 @@ const EmployeeTransport = () => {
                     required
                   />
                 </div>
+                
+                {/* Journey Details */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-gray-700 mb-1">
+                      From (Station) <span className="text-yellow-500">*</span>
+                    </label>
+                    <input 
+                      type="text" 
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-gray-700 mb-1">
+                      To (Station) <span className="text-yellow-500">*</span>
+                    </label>
+                    <input 
+                      type="text" 
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                      required
+                    />
+                  </div>
+                </div>
 
                 {/* Message Field */}
                 <div>
                   <label className="block text-gray-700 mb-1">
-                    Comment or Message <span className="text-yellow-500">*</span>
+                    Additional Requirements <span className="text-yellow-500">*</span>
                   </label>
                   <textarea 
                     rows="5" 
@@ -201,9 +224,9 @@ const EmployeeTransport = () => {
                 <div>
                   <button
                     type="submit"
-                    className="inline-block bg-white text-yellow-500 border-2 border-red-500 px-8 py-2.5 rounded font-medium hover:bg-gray-500 hover:text-white transition-colors duration-300"
+                    className="inline-block bg-blue-600 text-white px-8 py-2.5 rounded font-medium hover:bg-blue-700 transition-colors duration-300"
                   >
-                    SEND MESSAGE
+                    BOOK NOW
                   </button>
                 </div>
               </form>
@@ -215,4 +238,4 @@ const EmployeeTransport = () => {
   );
 };
 
-export default EmployeeTransport;
+export default Train;

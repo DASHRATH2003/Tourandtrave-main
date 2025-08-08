@@ -23,22 +23,12 @@ const CarList = () => {
       image: 'https://media.istockphoto.com/id/1150425295/photo/3d-illustration-of-generic-hatchback-car-perspective-view.jpg?s=612x612&w=0&k=20&c=vws8oDFjcfGpqNAybWPxsA9XROdcBh2MXW2PGEDgk-8=',
       seats: 'Luxury'
     },
-    {
-      id: 16,
-      name: 'Ferrari 488 GTB',
-      image: 'https://i.postimg.cc/kG5YhjhC/laxury4.png',
-      seats: 'Luxury'
-    },
-    {
-      id: 17,
-      name: 'Lamborghini Huracán',
-      image: 'https://i.postimg.cc/Y9rdhn7F/laxury5.png',
-      seats: 'Luxury'
-    },
+    
+    
     {
       id: 18,
       name: 'Rolls-Royce Ghost',
-      image: 'https://i.postimg.cc/gkXNXLCg/laxury6.png',
+      image: 'https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/page-properties/rrmc-homepage-ghost-share-image.jpg',
       seats: 'Luxury'
     },
     {
@@ -47,18 +37,8 @@ const CarList = () => {
       image: 'https://i.postimg.cc/NjRDbqfT/laxery7.png',
       seats: 'Luxury'
     },
-    {
-      id: 20,
-      name: 'Ferrari F8 Tributo',
-      image: 'https://c4.wallpaperflare.com/wallpaper/863/488/920/ferrari-458-white-car-wallpaper-preview.jpg',
-      seats: 'Luxury'
-    },
-    {
-      id: 21,
-      name: 'Ferrari 458 Italia',
-      image: 'https://c4.wallpaperflare.com/wallpaper/809/225/171/ferrari-458-white-photo-6-wallpaper-preview.jpg',
-      seats: 'Luxury'
-    },
+    
+   
     {
       id: 22,
       name: 'Kia Seltos',
@@ -77,22 +57,53 @@ const CarList = () => {
       image: 'https://imgd.aeplcdn.com/370x208/n/86elssa_1480025.jpg?q=80',
       seats: '7'
     },
+     {
+      id: 24,
+      name: 'Fortuner',
+      image: 'https://5.imimg.com/data5/NC/XN/DK/GLADMIN-82513544/fortuner-500x500-1000x1000.jpg',
+      seats: '7'
+    },
+      {
+      id: 24,
+      name: 'Urbania',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
+      seats: '7'
+    },
+     {
+      id: 24,
+      name: 'Urbania 10+1',
+      image: 'https://truckcdn.cardekho.com/in/force/urbania/force-urbania.jpg?impolicy=resize&imwidth=480',
+      seats: '10+1 seats'
+    },
+     {
+      id: 24,
+      name: 'Urbania 12+1',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
+      seats: '12+1 seats'
+    },
+     {
+      id: 24,
+      name: 'Urbania 16+1',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/exterior-image-164.jpg',
+      seats: '16+1 seats'
+    },
+     
    
     {
       id: 1,
-      name: 'Etios or Desire (Sedan)',
+      name: 'Etios or Dzire ',
       image: '/images/cars/image1.webp',
       seats: 4
     },
     {
       id: 2,
-      name: 'Innova or Ertiga or Xylo (SUV)',
+      name: 'Innova ',
       image: '/images/cars/TOYOTA.png',
       seats: 7
     },
     {
       id: 3,
-      name: 'Innova Crysta (SUV Prime)',
+      name: 'Innova Crysta (SUV Primium)',
       image: '/images/cars/image3.jpg',
       seats: 7
     },
@@ -102,6 +113,7 @@ const CarList = () => {
       image: '/images/cars/innovaedit.jpg',
       seats: 7
     },
+    
     {
       id: 5,
       name: 'Force Traveller (Non-AC)',

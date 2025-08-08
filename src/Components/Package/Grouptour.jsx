@@ -59,7 +59,7 @@ const Grouptour = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS provides comprehensive group tour
+                Varshadhaara Tours And Travels provides comprehensive group tour
                 services. We specialize in organizing comfortable and
                 well-coordinated transport for corporate events, school trips,
                 and large group outings.
@@ -72,7 +72,7 @@ const Grouptour = () => {
               <p className="text-gray-700 leading-relaxed mb-6">
                 There’s something special about traveling as a group — the
                 laughter, the shared discoveries, and the unforgettable moments.
-                At VARSHADHAARA TOURS AND TRAVELS, we bring people together with
+                At Varshadhaara Tours And Travels, we bring people together with
                 thoughtfully planned group tour services that take the stress
                 out of coordination. From weekend getaways with friends to
                 spiritual journeys with your community or company offsites, we

@@ -59,7 +59,7 @@ const ResortPackage = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS brings you exclusive access to over 200+ premium resorts 
+                Varshadhaara Tours And Travels brings you exclusive access to over 200+ premium resorts 
                 across India and beyond. Our carefully curated resort packages combine luxury accommodations 
                 with exceptional service to create unforgettable experiences.
               </p>

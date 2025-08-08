@@ -59,7 +59,7 @@ const Honeymoontour = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS offers exclusive honeymoon tour packages designed for couples. We ensure privacy, comfort, and luxury throughout your romantic journey with our premium services.
+                Varshadhaara Tours And Travels offers exclusive honeymoon tour packages designed for couples. We ensure privacy, comfort, and luxury throughout your romantic journey with our premium services.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our honeymoon packages include luxury vehicles, professional drivers, and personalized service to make your special trip memorable and stress-free.

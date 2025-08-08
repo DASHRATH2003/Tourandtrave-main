@@ -103,7 +103,7 @@ const Weddingtour = () => {
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS provides luxurious and memorable wedding tour packages. We ensure every detail is taken care of, making your special day truly unforgettable with our premium services.
+                Varshadhaara Tours And Travels provides luxurious and memorable wedding tour packages. We ensure every detail is taken care of, making your special day truly unforgettable with our premium services.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our wedding tour packages are designed to provide you and your guests with a seamless and comfortable experience. We handle all transportation needs with style and elegance.

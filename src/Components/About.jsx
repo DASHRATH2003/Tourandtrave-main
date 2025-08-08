@@ -213,7 +213,7 @@ const About = () => {
               Welcome to VARSHADHAARA
             </h2>
             <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-              VARSHADHAARA Tours And Travels Pvt Ltd is a company that serves
+              Varshadhaara Tours And Travels  is a company that serves
               business and clients who require professional, friendly and
               efficient organization of their outbound and inbound travel &
               tourism needs. We are known for providing quality services and

@@ -69,7 +69,7 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
           <div className="md:w-1/2">
   <div className="prose prose-lg">
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      VARSHADHAARA TOURS AND TRAVELS offers comprehensive tour packages designed to give you the best travel experience. From weekend getaways to extended vacations, we curate perfect itineraries that cater to all your travel needs.
+      Varshadhaara Tours And Travels offers comprehensive tour packages designed to give you the best travel experience. From weekend getaways to extended vacations, we curate perfect itineraries that cater to all your travel needs.
     </p>
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
       Our tour packages include carefully selected accommodations, comfortable transportation, guided sightseeing, and all necessary arrangements to make your journey memorable and hassle-free.

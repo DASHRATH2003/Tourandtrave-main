@@ -69,7 +69,7 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
           <div className="md:w-1/2">
             <div className="prose prose-lg">
               <p className="text-gray-700 leading-relaxed mb-6">
-                VARSHADHAARA TOURS AND TRAVELS offers premium outstation car rental services for your intercity travel needs. Whether you're planning a weekend getaway, business trip, or family vacation, we provide comfortable and reliable transportation solutions.
+                Varshadhaara Tours And Travels offers premium outstation car rental services for your intercity travel needs. Whether you're planning a weekend getaway, business trip, or family vacation, we provide comfortable and reliable transportation solutions.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 Our outstation service covers all major cities and tourist destinations with experienced drivers who know the best routes and ensure a safe journey. Choose from our wide range of vehicles to suit your travel requirements.

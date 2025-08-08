@@ -6,6 +6,7 @@ const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const [showPackageDropdown, setShowPackageDropdown] = useState(false);
+  const [showTicketDropdown, setShowTicketDropdown] = useState(false);
   const location = useLocation();
 
   // Add scrollToTop function
@@ -21,6 +22,7 @@ const Navbar = () => {
     setShowMobileMenu(false);
     setShowServicesDropdown(false);
     setShowPackageDropdown(false);
+    setShowTicketDropdown(false);
     scrollToTop(); // Add scroll to top when route changes
   }, [location]);
 
@@ -35,9 +37,14 @@ const Navbar = () => {
     { name: 'Tour Package Services', path: '/services/tour-package' },
     { name: 'Corporate Tour Services', path: '/services/corporate-tour' },
     { name: 'Vehicles for Events & Tours', path: '/services/event-vehicles' },
-    { name: 'With App Duty/Without App Duty', path: '/services/app-duty' },
     {name:'Vehicle Insurance service',path:'/services/vehicle'},
     
+  ];
+
+  const ticketLinks = [
+    { name: 'Flight Ticket', path: '/Flight' },
+    { name: 'Train Ticket', path: '/Train' },
+   
   ];
 
   return (
@@ -175,7 +182,59 @@ const Navbar = () => {
                 </div>
               )}
             </div>
+
+            <Link
+              to="/technology"
+              onClick={scrollToTop}
+              className={`font-semibold tracking-wide ${
+                location.pathname.includes('/technology') ? 'text-white' : 'text-white'
+              } hover:text-yellow-500 transition-colors`}
+            >
+              TECHNOLOGY
+            </Link>
            
+            <div className="relative">
+              <button
+                className={`font-semibold tracking-wide ${
+                  location.pathname.includes('/ticket') ? 'text-white' : 'text-white'
+                } hover:text-yellow-500 transition-colors flex items-center`}
+                onClick={() => setShowTicketDropdown(!showTicketDropdown)}
+                onMouseEnter={() => setShowTicketDropdown(true)}
+              >
+                TICKET
+                <svg
+                  className={`ml-1 w-4 h-4 transition-transform ${
+                    showTicketDropdown ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {/* Ticket Dropdown */}
+              {showTicketDropdown && (
+                <div
+                  className="absolute left-0 mt-2 w-48 bg-gray-800 rounded-md shadow-lg py-1 z-50"
+                  onMouseLeave={() => setShowTicketDropdown(false)}
+                >
+                  {ticketLinks.map((ticket, index) => (
+                    <Link
+                      key={index}
+                      to={ticket.path}
+                      onClick={scrollToTop}
+                      className={`block px-4 py-2 text-sm ${
+                        isActive(ticket.path) ? 'text-yellow-500 bg-gray-50' : 'text-white'
+                      } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
+                    >
+                      {ticket.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <Link
               to="/carlist"
               onClick={scrollToTop}
@@ -351,6 +410,15 @@ const Navbar = () => {
               </div>
             </div>
             <Link
+              to="/technology"
+              onClick={scrollToTop}
+              className={`text-sm font-semibold ${
+                location.pathname.includes('/technology') ? 'text-yellow-500' : 'text-white'
+              }`}
+            >
+              TECHNOLOGY
+            </Link>
+            <Link
               to="/cartlist"
               onClick={scrollToTop}
               className={`text-sm font-semibold ${
@@ -359,6 +427,45 @@ const Navbar = () => {
             >
               CARTLIST
             </Link>
+            <div>
+              <button
+                className={`text-sm font-semibold w-full text-left flex justify-between items-center ${
+                  location.pathname.includes('/ticket') ? 'text-yellow-500' : 'text-white'
+                }`}
+                onClick={() => setShowTicketDropdown(!showTicketDropdown)}
+              >
+                TICKET
+                <svg
+                  className={`w-4 h-4 transition-transform ${
+                    showTicketDropdown ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {/* Mobile Menu Ticket Links */}
+              <div
+                className={`pl-4 mt-2 space-y-2 ${
+                  showTicketDropdown ? 'block' : 'hidden'
+                }`}
+              >
+                {ticketLinks.map((ticket, index) => (
+                  <Link
+                    key={index}
+                    to={ticket.path}
+                    onClick={scrollToTop}
+                    className={`block text-sm font-semibold ${
+                      isActive(ticket.path) ? 'text-yellow-500' : 'text-white'
+                    }`}
+                  >
+                    {ticket.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
             <Link
               to="/carlist"
               onClick={scrollToTop}
