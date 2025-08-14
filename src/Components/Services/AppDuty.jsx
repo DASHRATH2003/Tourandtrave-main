@@ -28,7 +28,7 @@ const AppDuty = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             With App Duty/Application Based on employee Transtortation service
           </h1>
-          <p className="text-white text-lg leading-relaxed">
+          <p className="text-white text-lg font-bold leading-relaxed">
           We offer both app-based and traditional duty services to suit your preferences and business needs. 
           Our app-based service provides modern features like live tracking, digital duty slips, and instant notifications.
           </p>
@@ -67,14 +67,14 @@ const AppDuty = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                 Varshadhaara Tours And Travels offers flexible duty options with or without app-based tracking. Choose between traditional service or enhanced digital tracking for real-time monitoring of your transportation needs.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                 Our app-based duty service provides advanced features like live tracking, digital duty logs, and instant notifications, while our traditional service maintains the same high quality with manual reporting and direct communication.
               </p>
               
-              <p className='text-gray-700 leading-relaxed mb-6'>Whether you prefer the convenience of modern technology or the comfort of traditional methods, our duty services have you covered. Experience real-time tracking and digital updates with our app, or enjoy dependable manual coordination with our classic service.</p>
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>Whether you prefer the convenience of modern technology or the comfort of traditional methods, our duty services have you covered. Experience real-time tracking and digital updates with our app, or enjoy dependable manual coordination with our classic service.</p>
             </div>
           </div>
 
@@ -90,24 +90,24 @@ const AppDuty = () => {
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-mobile-alt"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">App Tracking</h3>
-            <p className="text-gray-600">Real-time location monitoring</p>
+            <h3 className="text-xl font-bold mb-2">App Tracking</h3>
+            <p className="text-gray-600 font-bold">Real-time location monitoring</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-clipboard-list"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Digital Logs</h3>
-            <p className="text-gray-600">Automated trip documentation</p>
+            <h3 className="text-xl font-bold mb-2">Digital Logs</h3>
+            <p className="text-gray-600 font-bold">Automated trip documentation</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-phone-alt"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Direct Service</h3>
-            <p className="text-gray-600">Traditional communication option</p>
+            <h3 className="text-xl font-bold mb-2">Direct Service</h3>
+            <p className="text-gray-600 font-bold">Traditional communication option</p>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ const AppDuty = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -142,7 +142,7 @@ const AppDuty = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -150,14 +150,14 @@ const AppDuty = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -169,7 +169,7 @@ const AppDuty = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -181,7 +181,7 @@ const AppDuty = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

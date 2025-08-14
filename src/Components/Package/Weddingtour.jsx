@@ -19,9 +19,8 @@ const Weddingtour = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Wedding Tour
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Celebrate your big day in style with VARSHADHAARA TOURS AND TRAVELS' premium wedding tour services. 
-          We specialize in organizing seamless, luxurious travel arrangements for weddings — whether it's transporting guests from airports.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            Make your wedding day perfect with our comprehensive wedding tour packages. We provide complete wedding transportation services, including decorated vehicles and professional coordination for your special day.
           </p>
         </div>
 
@@ -102,20 +101,14 @@ const Weddingtour = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels provides luxurious and memorable wedding tour packages. We ensure every detail is taken care of, making your special day truly unforgettable with our premium services.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers comprehensive wedding tour packages designed to make your special day perfect. We provide complete wedding transportation services, including decorated vehicles and professional coordination for all your wedding events.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Our wedding tour packages are designed to provide you and your guests with a seamless and comfortable experience. We handle all transportation needs with style and elegance.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our wedding packages include decorated vehicles, professional drivers, and complete coordination for all wedding events. We ensure timely service, elegant presentation, and reliable transportation to make your wedding day truly special and memorable.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6" >We offer a fleet of premium vehicles for the bride, groom, families, and guests — including luxury cars, AC coaches, and tempo travellers. 
-Our trained chauffeurs, timely coordination, and personalized travel planning guarantee that every moment goes off without a hitch.
-<br />
-Need to manage outstation guests? We’ve got you covered with end-to-end travel support, accommodation transfers, and sightseeing add-ons 
-for guests who want to explore the local culture. Planning a honeymoon? We can curate romantic getaway packages to make your first trip 
-as a couple extra special.
-
-</p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From pre-wedding events to the main ceremony, our wedding packages are designed to provide elegant and reliable transportation. Trust us to handle all your wedding transportation needs with professionalism and care.</p>
             </div>
           </div>
 
@@ -139,24 +132,24 @@ as a couple extra special.
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-car-side"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Fleet Monitoring</h3>
-            <p className="text-gray-600">Real-time vehicle tracking for timely service</p>
+            <h3 className="text-xl font-bold mb-2">Decorated Vehicles</h3>
+            <p className="text-gray-600 font-bold">Beautifully decorated wedding cars</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-clock"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-            <p className="text-gray-600">Available round the clock for your convenience</p>
+            <h3 className="text-xl font-bold mb-2">Complete Coordination</h3>
+            <p className="text-gray-600 font-bold">Professional wedding event management</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-handshake"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Meet & Greet</h3>
-            <p className="text-gray-600">Professional coordination at your venue</p>
+            <h3 className="text-xl font-bold mb-2">Timely Service</h3>
+            <p className="text-gray-600 font-bold">Punctual transportation for all events</p>
           </div>
         </div>
 
@@ -181,7 +174,7 @@ as a couple extra special.
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -191,7 +184,7 @@ as a couple extra special.
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -199,14 +192,14 @@ as a couple extra special.
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-yellow-500">*</span>
                   </label>
                   <input 
@@ -218,7 +211,7 @@ as a couple extra special.
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-yellow-500">*</span>
                   </label>
                   <input 
@@ -230,8 +223,9 @@ as a couple extra special.
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Comment or Message <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Comment or Message{" "}
+                    <span className="text-yellow-500">*</span>
                   </label>
                   <textarea 
                     rows="5" 

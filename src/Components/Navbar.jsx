@@ -107,7 +107,7 @@ const Navbar = () => {
                       key={index}
                       to={service.path}
                       onClick={scrollToTop}
-                      className={`block px-4 py-2 text-sm ${
+                      className={`block px-4 py-2 text-sm font-bold ${
                         isActive(service.path) ? 'text-yellow-500 bg-gray-50' : 'text-white'
                       } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                     >
@@ -146,7 +146,7 @@ const Navbar = () => {
                   <Link
                     to="/package/Weddingtour"
                     onClick={scrollToTop}
-                    className={`block px-4 py-2 text-sm ${
+                    className={`block px-4 py-2 text-sm font-bold ${
                       location.pathname === '/package/Weddingtour' ? 'text-gray-800' : 'text--white'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
@@ -155,7 +155,7 @@ const Navbar = () => {
                   <Link
                     to="/package/Grouptour"
                     onClick={scrollToTop}
-                    className={`block px-4 py-2 text-sm ${
+                    className={`block px-4 py-2 text-sm font-bold ${
                       location.pathname === '/package/Grouptour' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
@@ -164,7 +164,7 @@ const Navbar = () => {
                   <Link
                     to="/package/Honeymoontour"
                     onClick={scrollToTop}
-                    className={`block px-4 py-2 text-sm ${
+                    className={`block px-4 py-2 text-sm font-bold ${
                       location.pathname === '/package/Honeymoontour' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
@@ -173,7 +173,7 @@ const Navbar = () => {
                   <Link
                     to="/package/ResortPackage"
                     onClick={scrollToTop}
-                    className={`block px-4 py-2 text-sm ${
+                    className={`block px-4 py-2 text-sm font-bold ${
                       location.pathname === '/package/ResortPackage' ? 'text-yellow-500 bg-gray-50' : 'text-gray-800'
                     } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                   >
@@ -224,7 +224,7 @@ const Navbar = () => {
                       key={index}
                       to={ticket.path}
                       onClick={scrollToTop}
-                      className={`block px-4 py-2 text-sm ${
+                      className={`block px-4 py-2 text-sm font-bold ${
                         isActive(ticket.path) ? 'text-yellow-500 bg-gray-50' : 'text-white'
                       } hover:bg-gray-50 hover:text-yellow-500 transition-colors`}
                     >
@@ -337,7 +337,7 @@ const Navbar = () => {
                     key={index}
                     to={service.path}
                     onClick={scrollToTop}
-                    className={`block text-sm font-semibold ${
+                    className={`block text-sm font-bold ${
                       isActive(service.path) ? 'text-yellow-500' : 'text-white'
                     }`}
                   >
@@ -374,7 +374,7 @@ const Navbar = () => {
                 <Link
                   to="/package/Weddingtour"
                   onClick={scrollToTop}
-                  className={`block text-sm font-semibold ${
+                  className={`block text-sm font-bold ${
                     location.pathname === '/package/Weddingtour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
@@ -383,7 +383,7 @@ const Navbar = () => {
                 <Link
                   to="/package/Grouptour"
                   onClick={scrollToTop}
-                  className={`block text-sm font-semibold ${
+                  className={`block text-sm font-bold ${
                     location.pathname === '/package/Grouptour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
@@ -392,7 +392,7 @@ const Navbar = () => {
                 <Link
                   to="/package/Honeymoontour"
                   onClick={scrollToTop}
-                  className={`block text-sm font-semibold ${
+                  className={`block text-sm font-bold ${
                     location.pathname === '/package/Honeymoontour' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
@@ -401,7 +401,7 @@ const Navbar = () => {
                 <Link
                   to="/package/ResortPackage"
                   onClick={scrollToTop}
-                  className={`block text-sm font-semibold ${
+                  className={`block text-sm font-bold ${
                     location.pathname === '/package/ResortPackage' ? 'text-yellow-500' : 'text-white'
                   } hover:text-yellow-500 transition-colors`}
                 >
@@ -457,7 +457,7 @@ const Navbar = () => {
                     key={index}
                     to={ticket.path}
                     onClick={scrollToTop}
-                    className={`block text-sm font-semibold ${
+                    className={`block text-sm font-bold ${
                       isActive(ticket.path) ? 'text-yellow-500' : 'text-white'
                     }`}
                   >

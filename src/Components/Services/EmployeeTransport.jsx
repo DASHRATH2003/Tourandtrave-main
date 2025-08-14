@@ -28,9 +28,8 @@ const EmployeeTransport = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Employee Transport
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Our Employee Transport Services are designed to ensure safe, punctual, and hassle-free travel for your workforce. 
-          With a modern fleet of well-maintained vehicles and experienced drivers, we provide end-to-end transportation solutions.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We provide comprehensive employee transportation services, ensuring safe and reliable daily commutes for your workforce. Our services include route optimization, real-time tracking, and professional drivers to enhance employee satisfaction and productivity.
           </p>
         </div>
 
@@ -67,14 +66,14 @@ const EmployeeTransport = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels Our Employee Transport Service is tailored for organizations seeking reliable, safe, and timely daily commute solutions for their staff. We offer customized routing, real-time tracking, and a fleet of well-maintained vehicles to ensure seamless employee movement and enhanced productivity.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers reliable employee transportation services designed to meet the daily commuting needs of your workforce. We provide safe, comfortable, and punctual transportation solutions that enhance employee satisfaction and productivity.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-              We make everyday travel easier for your team! Our employee transport service is designed to provide safe, punctual, and stress-free commuting. Whether it’s day or night shifts, we ensure your employees reach work and home comfortably and on time.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our employee transport services include route optimization, real-time tracking, professional drivers, and well-maintained vehicles. We ensure timely pickups and drops, comfortable travel, and reliable service for your employees' daily commute.
               </p>
-              <br />
-              <p>Safe rides. Timely drops. Hassle-free commutes for your entire workforce. Leave the transport to us — and focus on growing your business.</p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From daily office commutes to special event transportation, our employee transport services are designed to provide convenience and reliability. Trust us to handle your workforce transportation needs with professionalism and care.</p>
             </div>
           </div>
 
@@ -90,8 +89,8 @@ const EmployeeTransport = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-user-tie"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Corporate Employee Transport</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Corporate Employee Transport</h3>
+    <p className="text-gray-600 font-bold">
       Reliable daily commute services for employees across all major zones
     </p>
   </div>
@@ -100,8 +99,8 @@ const EmployeeTransport = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-clock"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">On-Time Pickups & Drops</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">On-Time Pickups & Drops</h3>
+    <p className="text-gray-600 font-bold">
       Timely and well-coordinated schedules to ensure smooth employee transit
     </p>
   </div>
@@ -110,8 +109,8 @@ const EmployeeTransport = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-shield-alt"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Safety & Tracking</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Safety & Tracking</h3>
+    <p className="text-gray-600 font-bold">
       Live vehicle tracking and verified drivers for secure employee travel
     </p>
   </div>
@@ -139,8 +138,8 @@ const EmployeeTransport = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Name <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
                     <div>
@@ -149,7 +148,7 @@ const EmployeeTransport = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -157,14 +156,14 @@ const EmployeeTransport = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Email <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Email <span className="text-red-500">*</span>
                   </label>
                   <input 
                     type="email" 
@@ -175,8 +174,8 @@ const EmployeeTransport = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Phone <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
                     type="tel" 
@@ -187,8 +186,8 @@ const EmployeeTransport = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Comment or Message <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 
                     rows="5" 

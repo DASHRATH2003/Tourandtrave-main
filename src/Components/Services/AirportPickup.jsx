@@ -28,8 +28,8 @@ const AirportPickup = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Airport Pickup
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Whether you’re arriving from a business trip or starting a vacation, 
+          <p className="text-white text-lg font-bold leading-relaxed">
+          Whether you're arriving from a business trip or starting a vacation, 
         our airport pickup service ensures a smooth, comfortable, and timely experience. 
         With a fleet of clean vehicles and courteous drivers, we guarantee safe and hassle-free 
         transportation from the airport to your destination.
@@ -73,16 +73,16 @@ const AirportPickup = () => {
             Seamless Airport Transfers in Bangalore
 
 </h2>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                Varshadhaara Tours And Travels provides reliable and comfortable airport transfer services in Bangalore. We ensure timely pickup and drop-off services to and from the airport, making your journey stress-free and convenient.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                 Our airport pickup and drop service is designed to provide you with a seamless travel experience. We monitor flight timings and adjust our schedule according to any delays or changes in your flight schedule.
               </p>
               <br />
-              <p>Sit back and relax — we’ve got your airport travel covered! Whether your flight is early or delayed, our team tracks it in real-time and adjusts accordingly. With our pickup and drop service, you'll never have to worry about waiting or rushing.</p>
+              <p className="font-bold">Sit back and relax — we've got your airport travel covered! Whether your flight is early or delayed, our team tracks it in real-time and adjusts accordingly. With our pickup and drop service, you'll never have to worry about waiting or rushing.</p>
               <br />
-              <p>We track your flight, adjust for delays, and get you there on time — every time. Trust us for punctual and comfortable airport pickup & dro</p>
+              <p className="font-bold">We track your flight, adjust for delays, and get you there on time — every time. Trust us for punctual and comfortable airport pickup & dro</p>
                
             </div>
           </div>
@@ -99,24 +99,24 @@ const AirportPickup = () => {
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-plane-arrival"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Flight Monitoring</h3>
-            <p className="text-gray-600">Real-time flight tracking for timely service</p>
+            <h3 className="text-xl font-bold mb-2">Flight Monitoring</h3>
+            <p className="text-gray-600 font-bold">Real-time flight tracking for timely service</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-clock"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-            <p className="text-gray-600">Available round the clock for your convenience</p>
+            <h3 className="text-xl font-bold mb-2">24/7 Service</h3>
+            <p className="text-gray-600 font-bold">Available round the clock for your convenience</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-handshake"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Meet & Greet</h3>
-            <p className="text-gray-600">Professional greeting service at the airport</p>
+            <h3 className="text-xl font-bold mb-2">Meet & Greet</h3>
+            <p className="text-gray-600 font-bold">Professional greeting service at the airport</p>
           </div>
         </div>
 
@@ -141,7 +141,7 @@ const AirportPickup = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -151,7 +151,7 @@ const AirportPickup = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -159,14 +159,14 @@ const AirportPickup = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -178,7 +178,7 @@ const AirportPickup = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -190,7 +190,7 @@ const AirportPickup = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

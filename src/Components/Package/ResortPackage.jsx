@@ -19,9 +19,8 @@ const ResortPackage = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Resort Package
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-            Experience luxury and comfort with our curated selection of over 200+ premium resorts. 
-            From beachfront paradises to mountain retreats, we offer the perfect getaway for every traveler.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            Experience luxury and comfort with our resort package tours. We offer exclusive resort stays with premium amenities, ensuring a relaxing and memorable vacation experience for you and your family.
           </p>
         </div>
 
@@ -58,21 +57,14 @@ const ResortPackage = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels brings you exclusive access to over 200+ premium resorts 
-                across India and beyond. Our carefully curated resort packages combine luxury accommodations 
-                with exceptional service to create unforgettable experiences.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers luxury resort package tours designed to provide the ultimate vacation experience. We partner with premium resorts to offer exclusive stays with world-class amenities and services.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Whether you're seeking a beachfront paradise, a mountain retreat, or a wildlife resort experience, 
-                our diverse portfolio caters to every preference. Each resort in our collection is handpicked 
-                to ensure the highest standards of comfort, service, and amenities.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our resort packages include luxury accommodations, premium amenities, and exclusive services to ensure a relaxing and memorable vacation. We provide comfortable transportation and professional service throughout your resort stay.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                From luxury palace hotels to boutique wellness retreats, we offer comprehensive packages that include 
-                accommodation, dining experiences, recreational activities, and local excursions. Our team ensures 
-                every detail is perfectly arranged for a hassle-free and memorable stay.
-              </p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From beach resorts to mountain retreats, our resort packages are designed to provide luxury and comfort. Trust us to create the perfect resort vacation experience for you and your family.</p>
             </div>
           </div>
 
@@ -96,24 +88,24 @@ const ResortPackage = () => {
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-concierge-bell"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Premium Service</h3>
-            <p className="text-gray-600">24/7 concierge service and personalized attention</p>
+            <h3 className="text-xl font-bold mb-2">Luxury Resorts</h3>
+            <p className="text-gray-600 font-bold">Premium resort accommodations</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-spa"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Luxury Amenities</h3>
-            <p className="text-gray-600">World-class facilities and fine dining experiences</p>
+            <h3 className="text-xl font-bold mb-2">Premium Amenities</h3>
+            <p className="text-gray-600 font-bold">World-class facilities and services</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-map-marked-alt"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Prime Locations</h3>
-            <p className="text-gray-600">Handpicked resorts in scenic destinations</p>
+            <h3 className="text-xl font-bold mb-2">Exclusive Services</h3>
+            <p className="text-gray-600 font-bold">Personalized resort experiences</p>
           </div>
         </div>
 
@@ -138,7 +130,7 @@ const ResortPackage = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -148,7 +140,7 @@ const ResortPackage = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input
@@ -156,14 +148,14 @@ const ResortPackage = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -175,7 +167,7 @@ const ResortPackage = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -187,8 +179,9 @@ const ResortPackage = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Comment or Message <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Comment or Message{" "}
+                    <span className="text-yellow-500">*</span>
                   </label>
                   <textarea
                     rows="5"

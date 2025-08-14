@@ -28,9 +28,8 @@ const CorporateTour = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             CorporateTour
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          At VARSHADHAARA TOURS AND TRAVELS, we specialize in organizing seamless corporate tours tailored to your company's goals and culture. 
-          Whether it's team-building getaways, leadership retreats, incentive travel, or business conferences.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We specialize in corporate tour services, providing professional transportation solutions for business events, conferences, and corporate outings. Our services ensure punctuality, comfort, and reliability for all your corporate travel needs.
           </p>
         </div>
 
@@ -67,13 +66,14 @@ const CorporateTour = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels specializes in organizing corporate tours and team outings that combine business with leisure. We understand the unique requirements of corporate clients and deliver exceptional experiences that strengthen team bonds.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers comprehensive corporate tour services designed to meet the specific needs of businesses and organizations. We provide reliable transportation for corporate events, conferences, team outings, and business meetings.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                From team building activities to corporate retreats, we handle all aspects of your corporate tour including transportation, accommodation, meeting facilities, and recreational activities.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our corporate tour services include professional drivers, well-maintained vehicles, and flexible scheduling to accommodate your business requirements. We ensure timely pickups, comfortable travel, and professional service throughout your corporate journey.
               </p>
-              <p>From team-building activities to corporate retreats, we manage every detail of your corporate tour—covering transportation, premium accommodations, meeting facilities, and engaging recreational experiences to ensure a productive and enjoyable trip.</p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From executive transportation to group tours, our corporate services are tailored to enhance your business travel experience. Trust us to handle your corporate transportation needs with professionalism and reliability.</p>
             
             </div>
           </div>
@@ -90,24 +90,24 @@ const CorporateTour = () => {
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-users"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Team Building</h3>
-            <p className="text-gray-600">Engaging activities for team bonding</p>
+            <h3 className="text-xl font-bold mb-2">Team Building</h3>
+            <p className="text-gray-600 font-bold">Engaging activities for team bonding</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-building"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Business Facilities</h3>
-            <p className="text-gray-600">Professional meeting spaces and amenities</p>
+            <h3 className="text-xl font-bold mb-2">Business Facilities</h3>
+            <p className="text-gray-600 font-bold">Professional meeting spaces and amenities</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-concierge-bell"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Premium Service</h3>
-            <p className="text-gray-600">Dedicated corporate travel support</p>
+            <h3 className="text-xl font-bold mb-2">Premium Service</h3>
+            <p className="text-gray-600 font-bold">Dedicated corporate travel support</p>
           </div>
         </div>
 
@@ -132,7 +132,7 @@ const CorporateTour = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -142,7 +142,7 @@ const CorporateTour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -150,14 +150,14 @@ const CorporateTour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -169,7 +169,7 @@ const CorporateTour = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -181,7 +181,7 @@ const CorporateTour = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

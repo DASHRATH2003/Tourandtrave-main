@@ -28,7 +28,7 @@ const Technology = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Technology Solutions
           </h1>
-          <p className="text-white text-lg leading-relaxed">
+          <p className="text-white text-lg leading-relaxed font-bold">
             Cutting-edge technology solutions to transform your business. From web development to AI integration, 
             we provide innovative tech services that drive growth and efficiency.
           </p>
@@ -67,14 +67,14 @@ const Technology = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                 At Varshadhaara Tours And Travels, we offer comprehensive technology solutions designed to meet the evolving needs of modern businesses. Our team of expert developers and tech specialists work closely with you to create custom solutions that align with your business goals and enhance your digital presence.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                 From responsive web applications to mobile app development, cloud services, and AI integration, we provide end-to-end technology services that help you stay ahead in today's competitive market. Our solutions are scalable, secure, and built with the latest technologies to ensure optimal performance.
               </p>
               <br />
-              <p>Innovative solutions. Seamless integration. Future-ready technology for your business growth. Partner with us to transform your digital landscape.</p>
+              <p className="font-bold">Innovative solutions. Seamless integration. Future-ready technology for your business growth. Partner with us to transform your digital landscape.</p>
             </div>
           </div>
 
@@ -92,9 +92,9 @@ const Technology = () => {
               <div className="bg-red-600 p-3 rounded-full mr-4">
                 <i className="fas fa-exclamation-triangle text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Panic Alarm</h3>
+              <h3 className="text-xl font-bold">Panic Alarm</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Alarm message sent to multiple supervisors to ensure immediate attention and utmost importance.
             </p>
            
@@ -105,9 +105,9 @@ const Technology = () => {
               <div className="bg-blue-600 p-3 rounded-full mr-4">
                 <i className="fas fa-map-marker-alt text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">GPS Tracking</h3>
+              <h3 className="text-xl font-bold">GPS Tracking</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Real-time tracking and tracing of vehicles round the clock to ensure safety and verify chauffeurs follow dedicated routes.
             </p>
            
@@ -118,9 +118,9 @@ const Technology = () => {
               <div className="bg-yellow-500 p-3 rounded-full mr-4">
                 <i className="fas fa-bell text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Real-Time Alerts</h3>
+              <h3 className="text-xl font-bold">Real-Time Alerts</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Alerts via SMS & Email for Panic, Geofence Breach, Device Tampering, and Overspeed.
             </p>
            
@@ -133,9 +133,9 @@ const Technology = () => {
               <div className="bg-green-600 p-3 rounded-full mr-4">
                 <i className="fas fa-car text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Driver Behaviour Monitoring</h3>
+              <h3 className="text-xl font-bold">Driver Behaviour Monitoring</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Tracks rash driving, harsh braking, sharp turns, and overspeeding to improve passenger safety.
             </p>
            
@@ -146,9 +146,9 @@ const Technology = () => {
               <div className="bg-purple-600 p-3 rounded-full mr-4">
                 <i className="fas fa-draw-polygon text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Geo-fencing</h3>
+              <h3 className="text-xl font-bold">Geo-fencing</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Immediate notification when the vehicle enters or exits a pre-set route or area.
             </p>
           
@@ -159,9 +159,9 @@ const Technology = () => {
               <div className="bg-red-500 p-3 rounded-full mr-4">
                 <i className="fas fa-video text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">In-Vehicle CCTV</h3>
+              <h3 className="text-xl font-bold">In-Vehicle CCTV</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Live video streaming to monitor passenger and driver activities for enhanced security.
             </p>
            
@@ -174,9 +174,9 @@ const Technology = () => {
               <div className="bg-blue-500 p-3 rounded-full mr-4">
                 <i className="fas fa-gas-pump text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Fuel Monitoring</h3>
+              <h3 className="text-xl font-bold">Fuel Monitoring</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               Monitors real-time fuel usage to prevent theft, reduce wastage, and improve efficiency.
             </p>
            
@@ -187,9 +187,9 @@ const Technology = () => {
               <div className="bg-green-500 p-3 rounded-full mr-4">
                 <i className="fas fa-route text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Route Optimization</h3>
+              <h3 className="text-xl font-bold">Route Optimization</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               AI-powered shortest route suggestions based on traffic and weather.
             </p>
           
@@ -200,9 +200,9 @@ const Technology = () => {
               <div className="bg-yellow-600 p-3 rounded-full mr-4">
                 <i className="fas fa-qrcode text-white text-2xl"></i>
               </div>
-              <h3 className="text-xl font-semibold">Contactless Ticketing</h3>
+              <h3 className="text-xl font-bold">Contactless Ticketing</h3>
             </div>
-            <p className="text-gray-700">
+            <p className="text-gray-700 font-bold">
               QR code and NFC-based boarding for a faster, cashless experience.
             </p>
            
@@ -236,7 +236,7 @@ const Technology = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -261,7 +261,7 @@ const Technology = () => {
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Email <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -274,7 +274,7 @@ const Technology = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Phone <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -287,7 +287,7 @@ const Technology = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Comment or Message
                   </label>
                   <textarea
@@ -300,7 +300,7 @@ const Technology = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-yellow-500 text-white py-3 px-6 rounded-md hover:bg-yellow-600 transition-colors font-semibold"
+                  className="w-full bg-yellow-500 text-white py-3 px-6 rounded-md hover:bg-yellow-600 transition-colors font-bold"
                 >
                   SEND MESSAGE
                 </button>

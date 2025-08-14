@@ -19,9 +19,8 @@ const Honeymoontour = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             HaneymoonTour
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Begin your new journey together with an unforgettable honeymoon, curated by VARSHADHAARA TOURS AND TRAVELS. 
-          We offer personalized honeymoon tour packages that combine romance, luxury, and adventure in stunning destinations across India and abroad.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            Create unforgettable memories with our romantic honeymoon tour packages. We offer customized romantic getaways to exotic destinations, ensuring your special journey together is perfect in every way.
           </p>
         </div>
 
@@ -58,12 +57,14 @@ const Honeymoontour = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels offers exclusive honeymoon tour packages designed for couples. We ensure privacy, comfort, and luxury throughout your romantic journey with our premium services.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers romantic honeymoon tour packages designed to create unforgettable memories for newlyweds. We provide customized romantic getaways to exotic destinations, ensuring your special journey together is perfect in every way.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Our honeymoon packages include luxury vehicles, professional drivers, and personalized service to make your special trip memorable and stress-free.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our honeymoon packages include romantic accommodations, private transportation, and special experiences tailored for couples. We ensure privacy, comfort, and romantic settings to make your honeymoon truly special and memorable.
               </p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From beach destinations to mountain retreats, our honeymoon packages are designed to provide romantic experiences. Trust us to create the perfect romantic getaway for your special journey together.</p>
               <div className="mt-8 space-y-4">
                 <div className="flex items-center gap-3">
                   <i className="fas fa-check-circle text-yellow-500"></i>
@@ -105,24 +106,24 @@ const Honeymoontour = () => {
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-car"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Premium Vehicles</h3>
-            <p className="text-gray-600">Luxury cars for your romantic journey</p>
+            <h3 className="text-xl font-bold mb-2">Romantic Destinations</h3>
+            <p className="text-gray-600 font-bold">Exotic locations for couples</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-clock"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-            <p className="text-gray-600">Available round the clock for your convenience</p>
+            <h3 className="text-xl font-bold mb-2">Private Transport</h3>
+            <p className="text-gray-600 font-bold">Exclusive transportation for couples</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-heart"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Special Care</h3>
-            <p className="text-gray-600">Extra attention to make your trip special</p>
+            <h3 className="text-xl font-bold mb-2">Special Experiences</h3>
+            <p className="text-gray-600 font-bold">Unique romantic activities</p>
           </div>
         </div>
 
@@ -147,7 +148,7 @@ const Honeymoontour = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -157,7 +158,7 @@ const Honeymoontour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -165,14 +166,14 @@ const Honeymoontour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-yellow-500">*</span>
                   </label>
                   <input 
@@ -184,7 +185,7 @@ const Honeymoontour = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-yellow-500">*</span>
                   </label>
                   <input 
@@ -196,8 +197,9 @@ const Honeymoontour = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
-                    Comment or Message <span className="text-yellow-500">*</span>
+                  <label className="block text-gray-700 font-bold mb-1">
+                    Comment or Message{" "}
+                    <span className="text-yellow-500">*</span>
                   </label>
                   <textarea 
                     rows="5" 

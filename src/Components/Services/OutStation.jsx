@@ -28,10 +28,8 @@ const OutStation = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Out Station
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          With strategically located stations across Bangalore and other major cities, 
-VARSHADHAARA TOURS AND TRAVELS ensures prompt and efficient service delivery wherever you are. 
-Our stations are equipped with trained staff, dedicated vehicle fleets, and modern communication systems.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We provide reliable outstation travel services for long-distance journeys. Our services include comfortable vehicles, experienced drivers, and flexible itineraries to make your outstation trips safe and enjoyable.
           </p>
         </div>
 
@@ -68,15 +66,15 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels offers premium outstation car rental services for your intercity travel needs. Whether you're planning a weekend getaway, business trip, or family vacation, we provide comfortable and reliable transportation solutions.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers comprehensive outstation travel services for long-distance journeys. We provide comfortable vehicles, experienced drivers, and flexible itineraries to ensure safe and enjoyable travel to your destination.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Our outstation service covers all major cities and tourist destinations with experienced drivers who know the best routes and ensure a safe journey. Choose from our wide range of vehicles to suit your travel requirements.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our outstation services include well-maintained vehicles, professional drivers, and customizable travel plans. We ensure comfortable travel, timely arrivals, and reliable service for all your long-distance transportation needs.
               </p>
-              <br />
-              <p>Planning a getaway or a business trip outside the city? Our outstation service offers a fleet of well-maintained vehicles, experienced drivers, and flexible routes to take you anywhere — comfortably and safely.</p>
-              <p>From weekend getaways to long business trips, travel stress-free with our reliable outstation services and expert drivers.</p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From weekend getaways to extended trips, our outstation services are designed to provide comfort and reliability. Trust us to handle your long-distance travel needs with professionalism and care.</p>
+                             <p className="font-bold">From weekend getaways to long business trips, travel stress-free with our reliable outstation services and expert drivers.</p>
             </div>
           </div>
 
@@ -92,24 +90,24 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-route"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Multiple Destinations</h3>
-            <p className="text-gray-600">Travel to any destination across India</p>
+            <h3 className="text-xl font-bold mb-2">Multiple Destinations</h3>
+            <p className="text-gray-600 font-bold">Travel to any destination across India</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-car"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Choice of Vehicles</h3>
-            <p className="text-gray-600">Wide range of vehicles to choose from</p>
+            <h3 className="text-xl font-bold mb-2">Choice of Vehicles</h3>
+            <p className="text-gray-600 font-bold">Wide range of vehicles to choose from</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-shield-alt"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Safe Travel</h3>
-            <p className="text-gray-600">Experienced and verified drivers</p>
+            <h3 className="text-xl font-bold mb-2">Safe Travel</h3>
+            <p className="text-gray-600 font-bold">Experienced and verified drivers</p>
           </div>
         </div>
 
@@ -134,7 +132,7 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -144,7 +142,7 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -152,14 +150,14 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -171,7 +169,7 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -183,7 +181,7 @@ Our stations are equipped with trained staff, dedicated vehicle fleets, and mode
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

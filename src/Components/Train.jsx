@@ -8,7 +8,9 @@ const sliderImages = [
 ];
 const sliderImage = [
   
-  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+  "https://t4.ftcdn.net/jpg/10/55/39/65/360_F_1055396548_IJFVICX3EmAld9WVN9i8wuBtp97n3YuK.jpg",
+  "https://w0.peakpx.com/wallpaper/131/1006/HD-wallpaper-indian-railway-track-railway-train-indain-carriage.jpg",
+  "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1063601,resizemode-75,msid-115732108/industry/transportation/railways/high-speed-trains-indian-railways-280-kmph-speed-aerodynamic-design-indias-next-high-speed-trains-are-coming-soon-beml-icf-ashwini-vaishnaw.jpg",
 ];
 
 const Train = () => {
@@ -29,7 +31,7 @@ const Train = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Train Ticket Services
           </h1>
-          <p className="text-white text-lg leading-relaxed">
+          <p className="text-white text-lg leading-relaxed font-bold">
           Our Train Ticket Services are designed to ensure convenient, reliable, and affordable travel for all your needs. 
           With easy booking options and excellent customer support, we provide end-to-end train travel solutions.
           </p>
@@ -68,14 +70,14 @@ const Train = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                 Varshadhaara Tours And Travels Our Employee Transport Service is tailored for organizations seeking reliable, safe, and timely daily commute solutions for their staff. We offer customized routing, real-time tracking, and a fleet of well-maintained vehicles to ensure seamless employee movement and enhanced productivity.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-              We make everyday travel easier for your team! Our employee transport service is designed to provide safe, punctual, and stress-free commuting. Whether it’s day or night shifts, we ensure your employees reach work and home comfortably and on time.
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
+              We make everyday travel easier for your team! Our employee transport service is designed to provide safe, punctual, and stress-free commuting. Whether it's day or night shifts, we ensure your employees reach work and home comfortably and on time.
               </p>
               <br />
-              <p>Safe rides. Timely drops. Hassle-free commutes for your entire workforce. Leave the transport to us — and focus on growing your business.</p>
+              <p className="font-bold">Safe rides. Timely drops. Hassle-free commutes for your entire workforce. Leave the transport to us — and focus on growing your business.</p>
             </div>
           </div>
 
@@ -91,8 +93,8 @@ const Train = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-train"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Domestic Train Tickets</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Domestic Train Tickets</h3>
+    <p className="text-gray-600 font-bold">
       Hassle-free booking for all domestic train routes with multiple class options
     </p>
   </div>
@@ -101,8 +103,8 @@ const Train = () => {
     <div className="text-blue-500 text-4xl mb-4">
       <i className="fas fa-clock"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Tatkal & Premium Tatkal</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Tatkal & Premium Tatkal</h3>
+    <p className="text-gray-600 font-bold">
       Last-minute booking services with Tatkal and Premium Tatkal options to secure confirmed seats even during peak travel seasons
     </p>
   </div>
@@ -111,8 +113,8 @@ const Train = () => {
     <div className="text-green-500 text-4xl mb-4">
       <i className="fas fa-globe"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">International Rail Passes</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">International Rail Passes</h3>
+    <p className="text-gray-600 font-bold">
       Comprehensive international rail passes for seamless travel across multiple countries with flexible duration options
     </p>
   </div>
@@ -134,7 +136,7 @@ const Train = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -144,7 +146,7 @@ const Train = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 mt-1 font-bold">First</div>
                     </div>
                     <div>
                       <input 
@@ -152,14 +154,14 @@ const Train = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 mt-1 font-bold">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -171,7 +173,7 @@ const Train = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -183,7 +185,7 @@ const Train = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 
@@ -197,7 +199,7 @@ const Train = () => {
                 <div>
                   <button
                     type="submit"
-                    className="inline-block bg-white text-red-500 border-2 border-red-500 px-8 py-2.5 rounded font-medium hover:bg-red-500 hover:text-white transition-colors duration-300"
+                    className="inline-block bg-white text-red-500 border-2 border-red-500 px-8 py-2.5 rounded font-bold hover:bg-red-500 hover:text-white transition-colors duration-300"
                   >
                     SEND MESSAGE
                   </button>

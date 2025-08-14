@@ -45,7 +45,7 @@ const Home = () => {
 
   const images = [
     "https://wallpapers.com/images/hd/stylish-modern-white-jaguar-car-buf4kwkhwsm3384v.jpg",
-    "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
+    "https://5.imimg.com/data5/SELLER/Default/2023/1/YM/LB/OD/2957317/2021-toyota-innova-crysta-zx-automatic-diesel.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/TOYOTA.png",
     "https://tourandtrave-main.vercel.app/images/cars/image1.webp",
@@ -206,7 +206,7 @@ const Home = () => {
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6">
               Discover Amazing Destinations
             </h1>
-            <p className="text-base md:text-xl text-gray-200 mb-6 md:mb-8">
+            <p className="text-base md:text-xl font-bold text-gray-200 mb-6 md:mb-8">
               At Varshadhaara Tours and Travels pvt ltd, we believe that travel
               is more than just visiting new places — it's about experiencing
               cultures, making memories, and discovering yourself. With years of
@@ -262,18 +262,18 @@ const Home = () => {
                   </div>
                 </div>
 
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base font-bold">
                   Varshadhaara Tours and Travels Pvt. Ltd. was incorporated in
                   2020 and is located at , Bangalore, Karnataka – 560022.
                 </p>
 
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base font-bold">
                   As your business expands, so do your mobility needs. Our
                   scalable services are designed to grow with you—supporting
                   everything from small team transfers to enterprise-level
                   operations across cities.
                 </p>
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base font-bold">
                   Our operations are powered by smart tracking and scheduling
                   systems, providing real-time updates, route optimization, and
                   detailed reporting to keep your workforce moving smoothly and
@@ -281,7 +281,7 @@ const Home = () => {
                   offers professional, timely, and efficient coordination for
                   corporate transportation and workforce mobility.
                 </p>
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base font-bold">
                   Choose from a wide range of well-maintained vehicles—from
                   premium sedans for executives to AC coaches for larger teams.
                   All our drivers are professionally trained and
@@ -290,7 +290,7 @@ const Home = () => {
                   professional, timely, and efficient coordination for corporate
                   transportation and workforce mobility.
                 </p>
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base font-bold">
                   Varshadhaara Tours and Travels is a company that offers
                   professional, timely, and efficient coordination for corporate
                   transportation and workforce mobility.
@@ -332,7 +332,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Mobility Solutions
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 One stop solution for anything and everything your business
                 needs. We offer you a plethora of services to choose from and
                 customize your solution with our transportation services to
@@ -352,7 +352,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Employee Transportation Management
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 We help to achieve the constantly focusing on the safety of your
                 employees to give your company improved productivity in the
                 office.
@@ -371,7 +371,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Transparent Operations
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 With our transparent mode of operation, we keep at productivity
                 and financial predictability, hence the operation remains smooth
                 and unhindered.
@@ -390,7 +390,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Passenger Safety
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 With our top priority being passenger safety and with our safety
                 policies in place, you can rest at peace with our Live GPS
                 tracking and monitoring system.
@@ -409,7 +409,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Real-Time Occupancy Monitoring
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 Monitoring cab occupancy to follow timelines, it's our
                 responsibility to follow government social distancing guidelines
                 to maintain a safe environment for your employees.
@@ -428,7 +428,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Automated Safe Drop Confirmation
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 With immediate notification of driver's fleet assignment and
                 live tracking, we ensure safety during trip execution our
                 technology ensures a complete safety drop for your employees.
@@ -447,7 +447,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 24/7 Support
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 India's best customer support team ensures we ensure We offer
                 round-the-clock support and customer care.
               </p>
@@ -465,7 +465,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Cost Effective
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 At SKB, we aim to provide High Quality transportation services
                 in Bangalore at an affordable Price. We ensure giving Quality
                 Services with Effective Cost Solutions.
@@ -484,7 +484,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Certified Drivers
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 All the Drivers associated with SKB Services are Certified and
                 trained to take care of Passengers Safety and Regulations.
               </p>
@@ -502,7 +502,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Vehicle Tracking
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 You can track the movement of each vehicle in a fleet as they
                 move around the map from one destination to another.
               </p>
@@ -520,7 +520,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Automated Billing
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 Everything is precise and clear. You will have legal bills of
                 places you have traveled to with the details of the driver. And
                 the car that used for the trip.
@@ -539,7 +539,7 @@ const Home = () => {
               <h3 className="text-lg font-semibold mb-3 text-gray-800">
                 Web/Mobile Monitoring
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-sm font-bold">
                 Inside the user-friendly ETA Automated cab arrival status, GPS
                 tracking & analytics controller supervision for your employees
                 with user-friendly apps.
@@ -792,10 +792,10 @@ const Home = () => {
                 <div className="relative">
                   <div className="overflow-hidden">
                     <div className="text-center">
-                      <p className="text-gray-600 text-sm md:text-base mb-4">
+                      <p className="text-gray-600 text-sm md:text-base font-bold mb-4">
                         {testimonials[currentTestimonial].text}
                       </p>
-                      <h3 className="font-semibold text-gray-800">
+                      <h3 className="font-bold text-gray-800">
                         {testimonials[currentTestimonial].author}
                       </h3>
                     </div>
@@ -824,7 +824,7 @@ const Home = () => {
               <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-white text-sm mb-1">
+                    <label className="block text-white text-sm font-bold mb-1">
                       Name *
                     </label>
                     <input
@@ -833,10 +833,10 @@ const Home = () => {
                       className="w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base"
                       required
                     />
-                    <div className="text-xs text-white mt-1">First</div>
+                    <div className="text-xs text-white font-bold mt-1">First</div>
                   </div>
                   <div>
-                    <label className="block text-white text-sm mb-1">
+                    <label className="block text-white text-sm font-bold mb-1">
                       &nbsp;
                     </label>
                     <input
@@ -845,12 +845,12 @@ const Home = () => {
                       className="w-full px-3 md:px-4 py-2 rounded-md text-sm md:text-base"
                       required
                     />
-                    <div className="text-xs text-white mt-1">Last</div>
+                    <div className="text-xs text-white font-bold mt-1">Last</div>
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-white text-sm mb-1">
+                  <label className="block text-white text-sm font-bold mb-1">
                     Email *
                   </label>
                   <input
@@ -861,7 +861,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                  <label className="block text-white text-sm mb-1">
+                  <label className="block text-white text-sm font-bold mb-1">
                     Phone *
                   </label>
                   <input
@@ -872,7 +872,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                  <label className="block text-white text-sm mb-1">
+                  <label className="block text-white text-sm font-bold mb-1">
                     Comment or Message *
                   </label>
                   <textarea

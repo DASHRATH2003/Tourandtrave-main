@@ -28,10 +28,8 @@ const TourPackage = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Tour Package Service
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Explore the world your way with VARSHADHAARA TOURS AND TRAVELS’ expertly curated tour packages. 
-We offer a wide range of customizable domestic and international travel packages designed to meet 
-your unique interests, schedule, and budget. Whether it’s a family vacation, a romantic getaway.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We offer customized tour packages for domestic and international travel. Our packages include transportation, accommodation, and guided tours to make your travel experience memorable and hassle-free.
           </p>
         </div>
 
@@ -68,16 +66,14 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
           {/* Text Content */}
           <div className="md:w-1/2">
   <div className="prose prose-lg">
-    <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Varshadhaara Tours And Travels offers comprehensive tour packages designed to give you the best travel experience. From weekend getaways to extended vacations, we curate perfect itineraries that cater to all your travel needs.
+    <p className="text-gray-700 font-bold leading-relaxed mb-6">
+      Varshadhaara Tours And Travels offers customized tour packages for domestic and international travel. We provide comprehensive travel solutions including transportation, accommodation, and guided tours to make your travel experience memorable and hassle-free.
     </p>
-    <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Our tour packages include carefully selected accommodations, comfortable transportation, guided sightseeing, and all necessary arrangements to make your journey memorable and hassle-free.
+    <p className="text-gray-700 font-bold leading-relaxed mb-6">
+      Our tour packages are designed to cater to different travel preferences and budgets. We ensure comfortable travel, quality accommodation, and professional guidance throughout your journey to make it an unforgettable experience.
     </p>
-    <br />
-    <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Our tour packages are thoughtfully crafted to include premium accommodations, smooth and safe transportation, expert-guided sightseeing, and complete travel arrangements—ensuring a memorable and worry-free experience for every traveler.
-    </p>
+    
+    <p className='text-gray-700 font-bold leading-relaxed mb-6'>From adventure tours to luxury travel, our tour packages are designed to provide unique experiences. Trust us to create memorable journeys that exceed your expectations.</p>
    
   </div>
 </div>
@@ -95,24 +91,24 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-map-marked-alt"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Custom Itineraries</h3>
-            <p className="text-gray-600">Personalized travel plans for your needs</p>
+            <h3 className="text-xl font-bold mb-2">Customized Tours</h3>
+            <p className="text-gray-600 font-bold">Tailored travel experiences</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-hotel"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Quality Stays</h3>
-            <p className="text-gray-600">Comfortable and verified accommodations</p>
+            <h3 className="text-xl font-bold mb-2">Guided Tours</h3>
+            <p className="text-gray-600 font-bold">Professional tour guides</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-user-tie"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Expert Guides</h3>
-            <p className="text-gray-600">Professional and knowledgeable tour guides</p>
+            <h3 className="text-xl font-bold mb-2">All-Inclusive</h3>
+            <p className="text-gray-600 font-bold">Complete travel packages</p>
           </div>
         </div>
 
@@ -137,7 +133,7 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -147,7 +143,7 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -155,14 +151,14 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -174,7 +170,7 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -186,7 +182,7 @@ your unique interests, schedule, and budget. Whether it’s a family vacation, a
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

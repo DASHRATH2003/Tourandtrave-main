@@ -28,8 +28,8 @@ const EventVehicles = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Event Vehicles
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          Make your events truly memorable with Varshadhaara Tours and Travels’ dedicated event vehicle services. We provide reliable, stylish, and fully managed transportation for all types of events—ensuring smooth logistics from start to finish.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We provide specialized vehicles for events, weddings, and special occasions. Our fleet includes luxury cars, SUVs, and buses to make your events memorable and comfortable for all your guests.
           </p>
         </div>
 
@@ -66,14 +66,14 @@ const EventVehicles = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours And Travels provides a wide range of vehicles perfect for events, weddings, corporate functions, and special tours. From luxury cars to spacious buses, we have the right vehicle to match your occasion and group size.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers a diverse fleet of vehicles perfect for events, weddings, and special occasions. We provide luxury cars, SUVs, and buses to ensure your events are memorable and comfortable for all your guests.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Our fleet includes well-maintained vehicles with professional drivers, ensuring a comfortable and safe journey for all your special occasions. We specialize in both short-term and long-term vehicle rentals for events.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our event vehicle services include professional drivers, well-maintained vehicles, and flexible scheduling to accommodate your event requirements. We ensure timely service, comfortable travel, and professional presentation for your special occasions.
               </p>
               
-              <br /><p className='text-gray-700 leading-relaxed mb-6'>Make every occasion smooth and stress-free with our expertly maintained vehicles and courteous drivers. Whether it’s a one-day event or a multi-day celebration, we’ve got your transport covered.</p>
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From intimate gatherings to large events, our vehicle services are designed to enhance your special occasions. Trust us to provide reliable and elegant transportation for your events.</p>
             </div>
           </div>
 
@@ -89,24 +89,24 @@ const EventVehicles = () => {
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-car-side"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Luxury Fleet</h3>
-            <p className="text-gray-600">Premium vehicles for special occasions</p>
+            <h3 className="text-xl font-bold mb-2">Luxury Cars</h3>
+            <p className="text-gray-600 font-bold">Premium vehicles for special events</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-ring"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Wedding Special</h3>
-            <p className="text-gray-600">Decorated cars for your big day</p>
+            <h3 className="text-xl font-bold mb-2">Wedding Transport</h3>
+            <p className="text-gray-600 font-bold">Elegant transportation for weddings</p>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
             <div className="text-red-500 text-4xl mb-4">
               <i className="fas fa-bus"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Group Transport</h3>
-            <p className="text-gray-600">Vehicles for any group size</p>
+            <h3 className="text-xl font-bold mb-2">Event Support</h3>
+            <p className="text-gray-600 font-bold">Reliable service for all events</p>
           </div>
         </div>
 
@@ -131,7 +131,7 @@ const EventVehicles = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -141,7 +141,7 @@ const EventVehicles = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input 
@@ -149,14 +149,14 @@ const EventVehicles = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -168,7 +168,7 @@ const EventVehicles = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -180,7 +180,7 @@ const EventVehicles = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 

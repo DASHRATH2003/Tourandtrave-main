@@ -19,8 +19,8 @@ const Grouptour = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Group tour 
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-          There’s something special about traveling as a group — the laughter, the shared discoveries, and the unforgettable moments. 
+          <p className="text-white text-lg font-bold leading-relaxed">
+          There's something special about traveling as a group — the laughter, the shared discoveries, and the unforgettable moments. 
           At VARSHADHAARA TOURS AND TRAVELS, we bring people together with thoughtfully planned group tour services that take the stress out of coordination.
           </p>
         </div>
@@ -58,19 +58,19 @@ const Grouptour = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                 Varshadhaara Tours And Travels provides comprehensive group tour
                 services. We specialize in organizing comfortable and
                 well-coordinated transport for corporate events, school trips,
                 and large group outings.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
                 Our group tour packages are designed to handle large groups
                 efficiently while ensuring comfort and safety for all
                 passengers. We provide modern vehicles and experienced drivers.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                There’s something special about traveling as a group — the
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                There's something special about traveling as a group — the
                 laughter, the shared discoveries, and the unforgettable moments.
                 At Varshadhaara Tours And Travels, we bring people together with
                 thoughtfully planned group tour services that take the stress
@@ -102,8 +102,8 @@ const Grouptour = () => {
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-bus"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Fleet Monitoring</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-bold mb-2">Fleet Monitoring</h3>
+            <p className="text-gray-600 font-bold">
               Real-time vehicle tracking for group coordination
             </p>
           </div>
@@ -112,8 +112,8 @@ const Grouptour = () => {
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-clock"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Service</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-bold mb-2">24/7 Service</h3>
+            <p className="text-gray-600 font-bold">
               Available round the clock for your convenience
             </p>
           </div>
@@ -122,8 +122,8 @@ const Grouptour = () => {
             <div className="text-yellow-500 text-4xl mb-4">
               <i className="fas fa-users"></i>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Group Management</h3>
-            <p className="text-gray-600">
+            <h3 className="text-xl font-bold mb-2">Group Management</h3>
+            <p className="text-gray-600 font-bold">
               Professional coordination for large groups
             </p>
           </div>
@@ -150,7 +150,7 @@ const Grouptour = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-yellow-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -160,7 +160,7 @@ const Grouptour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input
@@ -168,14 +168,14 @@ const Grouptour = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -187,7 +187,7 @@ const Grouptour = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-yellow-500">*</span>
                   </label>
                   <input
@@ -199,7 +199,7 @@ const Grouptour = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message{" "}
                     <span className="text-yellow-500">*</span>
                   </label>

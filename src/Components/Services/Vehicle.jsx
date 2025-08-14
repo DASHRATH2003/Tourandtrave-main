@@ -28,13 +28,8 @@ const Vehicle = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Vehicle insurance service
           </h1>
-          <p className="text-white text-lg leading-relaxed">
-            We also offer comprehensive vehicle insurance services tailored to
-            protect your car, bike, or commercial vehicle from unexpected
-            damages, theft, and accidents. Whether you're purchasing a new
-            vehicle or renewing an existing policy, our experts help you choose
-            the best coverage options — giving you peace of mind on every
-            journey.
+          <p className="text-white text-lg font-bold leading-relaxed">
+            We offer a wide range of vehicles for all your transportation needs. From luxury cars to buses, our fleet includes well-maintained vehicles with professional drivers to ensure safe and comfortable travel.
           </p>
         </div>
 
@@ -71,28 +66,14 @@ const Vehicle = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Varshadhaara Tours and Travels offers reliable and hassle-free
-                vehicle insurance services to protect your car against
-                unexpected risks. Whether you need comprehensive coverage,
-                third-party liability, or renewal assistance, we provide the
-                right solutions to keep your vehicle secure.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Varshadhaara Tours And Travels offers a diverse fleet of vehicles to meet all your transportation needs. From luxury cars to spacious buses, we provide well-maintained vehicles with professional drivers to ensure safe and comfortable travel.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Our vehicle insurance service covers all major cities and
-                ensures your vehicle stays protected wherever you go. With
-                reliable coverage options and expert guidance, we help you
-                select the right insurance plan based on your vehicle type and
-                travel needs.
+              <p className="text-gray-700 font-bold leading-relaxed mb-6">
+                Our vehicle fleet includes sedans, SUVs, luxury cars, and buses to accommodate different group sizes and travel preferences. We ensure all vehicles are well-maintained and driven by experienced professionals for your safety and comfort.
               </p>
-              <br />
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Planning a getaway or a business trip outside the city? Our
-                vehicle information and outstation service offers a fleet of
-                well-maintained vehicles with detailed specifications,
-                experienced drivers, and flexible routes — ensuring you reach
-                your destination comfortably and safely.
-              </p>
+              
+              <p className='text-gray-700 font-bold leading-relaxed mb-6'>From individual travel to group transportation, our vehicle services are designed to provide comfort and reliability. Trust us to provide the perfect vehicle for your transportation needs.</p>
             </div>
           </div>
 
@@ -108,30 +89,30 @@ const Vehicle = () => {
     <div className="text-red-500 text-4xl mb-4">
       <i className="fas fa-file-alt"></i> {/* Insurance Document Icon */}
     </div>
-    <h3 className="text-xl font-semibold mb-2">Policy Options</h3>
-    <p className="text-gray-600">
-      Choose from a range of third-party and comprehensive insurance plans
-    </p>
+    <h3 className="text-xl font-bold mb-2">Policy Options</h3>
+          <p className="text-gray-600 font-bold">
+        Choose from a range of third-party and comprehensive insurance plans
+      </p>
   </div>
 
   <div className="bg-white p-6 rounded-lg shadow-lg text-center">
     <div className="text-red-500 text-4xl mb-4">
       <i className="fas fa-shield-alt"></i> {/* Protection/Shield Icon */}
     </div>
-    <h3 className="text-xl font-semibold mb-2">Coverage Protection</h3>
-    <p className="text-gray-600">
-      Get coverage for theft, accident, natural disasters, and more
-    </p>
+    <h3 className="text-xl font-bold mb-2">Coverage Protection</h3>
+          <p className="text-gray-600 font-bold">
+        Get coverage for theft, accident, natural disasters, and more
+      </p>
   </div>
 
   <div className="bg-white p-6 rounded-lg shadow-lg text-center">
     <div className="text-red-500 text-4xl mb-4">
       <i className="fas fa-headset"></i> {/* Customer Support Icon */}
     </div>
-    <h3 className="text-xl font-semibold mb-2">Claim Assistance</h3>
-    <p className="text-gray-600">
-      Fast and easy insurance claim support with expert help
-    </p>
+    <h3 className="text-xl font-bold mb-2">Claim Assistance</h3>
+          <p className="text-gray-600 font-bold">
+        Fast and easy insurance claim support with expert help
+      </p>
   </div>
 </div>
 
@@ -157,7 +138,7 @@ const Vehicle = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -167,7 +148,7 @@ const Vehicle = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">First</div>
                     </div>
                     <div>
                       <input
@@ -175,14 +156,14 @@ const Vehicle = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 font-bold mt-1">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -194,7 +175,7 @@ const Vehicle = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input
@@ -206,7 +187,7 @@ const Vehicle = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 font-bold mb-1">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea

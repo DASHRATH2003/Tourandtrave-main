@@ -7,7 +7,9 @@ const sliderImages = [
 
 ];
 const sliderImage = [
-  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg",
+  "https://i.pinimg.com/736x/38/59/ac/3859acc59d6ff9be4f7b68ffc2e957ca.jpg",
+  "https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-hd-plane-material-taking-off-in-the-sun-image_1061304.jpg",
+  "https://cdn.pngedits.com/uploads/preview/flying-airplane-png-images-hd-11624929290cbizkw6skv.png",
 
 ];
 
@@ -29,7 +31,7 @@ const Flight = () => {
           <h1 className="text-5xl font-bold text-white text-left mb-6">
             Flight Ticket Services
           </h1>
-          <p className="text-white text-lg leading-relaxed">
+          <p className="text-white text-lg leading-relaxed font-bold">
             Our Flight Ticket Services offer hassle-free booking, competitive rates, and comprehensive travel solutions for both domestic and international flights. Let us handle your air travel needs with efficiency and care.
           </p>
         </div>
@@ -67,14 +69,14 @@ const Flight = () => {
           {/* Text Content */}
           <div className="md:w-1/2">
             <div className="prose prose-lg">
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                 Varshadhaara Tours And Travels offers comprehensive flight ticket booking services for both business and leisure travelers. We provide access to all major airlines, competitive fares, and personalized assistance to ensure a smooth booking experience for all your air travel needs.
               </p>
-              <p className="text-gray-700 leading-relaxed mb-6">
+              <p className="text-gray-700 leading-relaxed mb-6 font-bold">
                 We simplify your travel planning! Our flight ticket service provides easy booking, best available rates, and complete support from reservation to check-in. Whether it's a business trip or a family vacation, we ensure you get the most convenient flight options at competitive prices.
               </p>
               <br />
-              <p>Seamless bookings. Best rates. Dedicated support throughout your journey. Let us take care of your flight arrangements while you focus on your travel experience.</p>
+              <p className="font-bold">Seamless bookings. Best rates. Dedicated support throughout your journey. Let us take care of your flight arrangements while you focus on your travel experience.</p>
             </div>
           </div>
 
@@ -90,8 +92,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-globe"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Domestic & International Flights</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Domestic & International Flights</h3>
+    <p className="text-gray-600 font-bold">
       Comprehensive booking services for flights to any destination worldwide
     </p>
   </div>
@@ -100,8 +102,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-tags"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Competitive Pricing</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Competitive Pricing</h3>
+    <p className="text-gray-600 font-bold">
       Access to special fares, discounts and best available rates across airlines
     </p>
   </div>
@@ -110,8 +112,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-headset"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">24/7 Support</h3>
+    <p className="text-gray-600 font-bold">
       Round-the-clock assistance for bookings, changes, and travel emergencies
     </p>
   </div>
@@ -122,8 +124,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-suitcase"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Complete Travel Packages</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Complete Travel Packages</h3>
+    <p className="text-gray-600 font-bold">
       Bundled flight, hotel, and car rental services for convenient travel planning
     </p>
   </div>
@@ -132,8 +134,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-plane-departure"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Group Bookings</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Group Bookings</h3>
+    <p className="text-gray-600 font-bold">
       Specialized services for corporate and large group travel arrangements
     </p>
   </div>
@@ -142,8 +144,8 @@ const Flight = () => {
     <div className="text-yellow-500 text-4xl mb-4">
       <i className="fas fa-clipboard-check"></i>
     </div>
-    <h3 className="text-xl font-semibold mb-2">Easy Check-in Assistance</h3>
-    <p className="text-gray-600">
+    <h3 className="text-xl font-bold mb-2">Easy Check-in Assistance</h3>
+    <p className="text-gray-600 font-bold">
       Support for web check-in, seat selection, and special meal requirements
     </p>
   </div>
@@ -165,7 +167,7 @@ const Flight = () => {
               <form className="space-y-6">
                 {/* Name Fields */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Name <span className="text-red-500">*</span>
                   </label>
                   <div className="grid grid-cols-2 gap-4">
@@ -175,7 +177,7 @@ const Flight = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">First</div>
+                      <div className="text-sm text-gray-600 mt-1 font-bold">First</div>
                     </div>
                     <div>
                       <input 
@@ -183,14 +185,14 @@ const Flight = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500"
                         required
                       />
-                      <div className="text-sm text-gray-600 mt-1">Last</div>
+                      <div className="text-sm text-gray-600 mt-1 font-bold">Last</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Email Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Email <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -202,7 +204,7 @@ const Flight = () => {
 
                 {/* Phone Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Phone <span className="text-red-500">*</span>
                   </label>
                   <input 
@@ -214,7 +216,7 @@ const Flight = () => {
 
                 {/* Message Field */}
                 <div>
-                  <label className="block text-gray-700 mb-1">
+                  <label className="block text-gray-700 mb-1 font-bold">
                     Comment or Message <span className="text-red-500">*</span>
                   </label>
                   <textarea 
@@ -228,7 +230,7 @@ const Flight = () => {
                 <div>
                   <button
                     type="submit"
-                    className="inline-block bg-white text-red-500 border-2 border-red-500 px-8 py-2.5 rounded font-medium hover:bg-red-500 hover:text-white transition-colors duration-300"
+                    className="inline-block bg-white text-red-500 border-2 border-red-500 px-8 py-2.5 rounded font-bold hover:bg-red-500 hover:text-white transition-colors duration-300"
                   >
                     SEND MESSAGE
                   </button>

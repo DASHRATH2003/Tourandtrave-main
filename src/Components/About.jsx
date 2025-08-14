@@ -130,7 +130,7 @@ const About = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-white text-left mb-4 md:mb-6">
             About Us
           </h1>
-          <p className="text-white text-base md:text-lg leading-relaxed">
+          <p className="text-white text-base md:text-lg font-bold leading-relaxed">
             We are a passionate team committed to delivering top-quality
             services and experiences to our clients. Our mission is to provide
             reliable solutions tailored to your needs— whether it's
@@ -148,7 +148,7 @@ const About = () => {
               className="bg-green-500 text-white p-3 hover:bg-green-600 transition-colors group relative"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
-              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+              <span className="absolute right-full mr-2 bg-black text-white text-sm font-bold py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
                 WhatsApp: +919916599719
               </span>
             </a>
@@ -157,7 +157,7 @@ const About = () => {
               className="bg-blue-500 text-white p-3 hover:bg-blue-600 transition-colors group relative"
             >
               <i className="fas fa-phone text-2xl"></i>
-              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+              <span className="absolute right-full mr-2 bg-black text-white text-sm font-bold py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
                 Call: +919916599719
               </span>
             </a>
@@ -166,7 +166,7 @@ const About = () => {
               className="bg-black text-white p-3 hover:bg-gray-800 transition-colors group relative"
             >
               <i className="fas fa-envelope text-2xl"></i>
-              <span className="absolute right-full mr-2 bg-black text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
+              <span className="absolute right-full mr-2 bg-black text-white text-sm font-bold py-1 px-2 rounded opacity-0 group-hover:opacity-100 whitespace-nowrap">
                 Email: infovtt@varshadhaaratours.com
               </span>
             </a>
@@ -212,7 +212,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-yellow-700 mb-4 md:mb-6">
               Welcome to VARSHADHAARA
             </h2>
-            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            <p className="text-gray-700 text-base md:text-lg font-bold leading-relaxed">
               Varshadhaara Tours And Travels  is a company that serves
               business and clients who require professional, friendly and
               efficient organization of their outbound and inbound travel &
@@ -221,7 +221,7 @@ const About = () => {
               company and the employees.
             </p>
             <br />
-            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            <p className="text-gray-700 text-base md:text-lg font-bold leading-relaxed">
               Looking for a travel partner who understands your needs? We bring
               you tailor-made domestic and international packages, corporate
               travel solutions, and unmatched customer support. Your perfect
@@ -241,7 +241,7 @@ const About = () => {
                     <CountUpNumber end={stat.number} />
                     {stat.number !== 9 && "+"}
                   </div>
-                  <div className="text-base md:text-xl">{stat.label}</div>
+                  <div className="text-base md:text-xl font-bold">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -257,7 +257,7 @@ const About = () => {
                 Our Objective
               </h2>
               <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6 md:mb-8"></div>
-              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center">
+              <p className="text-gray-700 text-base md:text-lg font-bold leading-relaxed text-center">
                 Proactively understand and meet client needs by constantly
                 challenging ourselves to adopt innovative mobility solutions
                 that will revolutionise the industry. Maintain constant and
@@ -273,7 +273,7 @@ const About = () => {
                 Our Operations
               </h2>
               <div className="w-20 h-1 bg-yellow-400 mx-auto mb-6 md:mb-8"></div>
-              <p className="text-gray-700 text-base md:text-lg leading-relaxed text-center">
+              <p className="text-gray-700 text-base md:text-lg font-bold leading-relaxed text-center">
                 By operating 24 hours a day and 365 days in a year we ensure no
                 demands go unattended, unsatisfied. In order to ensure error
                 free and smooth service, we have appointed staffs specially to
@@ -288,23 +288,23 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-16">
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
             <i className="fas fa-users text-3xl md:text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">Expert Team</h3>
-            <p className="text-gray-600 text-sm md:text-base">
+            <h3 className="text-lg md:text-xl font-bold mb-2">Expert Team</h3>
+            <p className="text-gray-600 text-sm md:text-base font-bold">
               Dedicated professionals with years of experience in travel
               industry
             </p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
             <i className="fas fa-clock text-3xl md:text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">24/7 Support</h3>
-            <p className="text-gray-600 text-sm md:text-base">
+            <h3 className="text-lg md:text-xl font-bold mb-2">24/7 Support</h3>
+            <p className="text-gray-600 text-sm md:text-base font-bold">
               Round-the-clock assistance for all your travel needs
             </p>
           </div>
           <div className="text-center p-6 bg-white rounded-lg shadow-lg">
             <i className="fas fa-shield-alt text-3xl md:text-4xl text-yellow-400 mb-4"></i>
-            <h3 className="text-lg md:text-xl font-semibold mb-2">Safe Travel</h3>
-            <p className="text-gray-600 text-sm md:text-base">
+            <h3 className="text-lg md:text-xl font-bold mb-2">Safe Travel</h3>
+            <p className="text-gray-600 text-sm md:text-base font-bold">
               Your safety is our top priority during all journeys
             </p>
           </div>

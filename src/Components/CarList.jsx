@@ -3,92 +3,9 @@ import { Link } from 'react-router-dom';
 import ImageSlider from './ImageSlider';
 
 const CarList = () => {
-  // Car data based on the image
+  // Car data reorganized: Regular cars first, then buses, then luxury cars
   const cars = [
-    {
-      id: 13,
-      name: 'BMW 7 Series',
-      image: 'https://i.postimg.cc/kMwkFSh9/laxury1.png',
-      seats: 'Luxury'
-    },
-    {
-      id: 14,
-      name: 'Mercedes-Benz S-Class',
-      image: 'https://t3.ftcdn.net/jpg/06/50/57/76/360_F_650577635_GesSMihkw3BjAVXDAKcLeaC8Ec8yUbTq.jpg',
-      seats: 'Luxury'
-    },
-    {
-      id: 15,
-      name: 'Audi A8 L',
-      image: 'https://media.istockphoto.com/id/1150425295/photo/3d-illustration-of-generic-hatchback-car-perspective-view.jpg?s=612x612&w=0&k=20&c=vws8oDFjcfGpqNAybWPxsA9XROdcBh2MXW2PGEDgk-8=',
-      seats: 'Luxury'
-    },
-    
-    
-    {
-      id: 18,
-      name: 'Rolls-Royce Ghost',
-      image: 'https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/page-properties/rrmc-homepage-ghost-share-image.jpg',
-      seats: 'Luxury'
-    },
-    {
-      id: 19,
-      name: 'BMW M5',
-      image: 'https://i.postimg.cc/NjRDbqfT/laxery7.png',
-      seats: 'Luxury'
-    },
-    
-   
-    {
-      id: 22,
-      name: 'Kia Seltos',
-      image: 'https://img.autocarindia.com/Galleries/20190708023903_Kia-Seltos-white.jpg?w=640&q=75',
-      seats: '5'
-    },
-    {
-      id: 23,
-      name: 'Kia Carens',
-      image: 'https://www.cartoq.com/wp-content/uploads/2023/05/kia-carens-premium-to-xline-1.jpg',
-      seats: '7'
-    },
-    {
-      id: 24,
-      name: 'Kia Carnival',
-      image: 'https://imgd.aeplcdn.com/370x208/n/86elssa_1480025.jpg?q=80',
-      seats: '7'
-    },
-     {
-      id: 24,
-      name: 'Fortuner',
-      image: 'https://5.imimg.com/data5/NC/XN/DK/GLADMIN-82513544/fortuner-500x500-1000x1000.jpg',
-      seats: '7'
-    },
-      {
-      id: 24,
-      name: 'Urbania',
-      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
-      seats: '7'
-    },
-     {
-      id: 24,
-      name: 'Urbania 10+1',
-      image: 'https://truckcdn.cardekho.com/in/force/urbania/force-urbania.jpg?impolicy=resize&imwidth=480',
-      seats: '10+1 seats'
-    },
-     {
-      id: 24,
-      name: 'Urbania 12+1',
-      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
-      seats: '12+1 seats'
-    },
-     {
-      id: 24,
-      name: 'Urbania 16+1',
-      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/exterior-image-164.jpg',
-      seats: '16+1 seats'
-    },
-     
-   
+    // Regular Cars (First Section)
     {
       id: 1,
       name: 'Etios or Dzire ',
@@ -113,7 +30,56 @@ const CarList = () => {
       image: '/images/cars/innovaedit.jpg',
       seats: 7
     },
+    {
+      id: 22,
+      name: 'Kia Seltos',
+      image: 'https://img.autocarindia.com/Galleries/20190708023903_Kia-Seltos-white.jpg?w=640&q=75',
+      seats: '5'
+    },
+    {
+      id: 23,
+      name: 'Kia Carens',
+      image: 'https://www.cartoq.com/wp-content/uploads/2023/05/kia-carens-premium-to-xline-1.jpg',
+      seats: '7'
+    },
+    {
+      id: 24,
+      name: 'Kia Carnival',
+      image: 'https://imgd.aeplcdn.com/370x208/n/86elssa_1480025.jpg?q=80',
+      seats: '7'
+    },
+    {
+      id: 25,
+      name: 'Fortuner',
+      image: 'https://5.imimg.com/data5/NC/XN/DK/GLADMIN-82513544/fortuner-500x500-1000x1000.jpg',
+      seats: '7'
+    },
+    {
+      id: 26,
+      name: 'Urbania',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
+      seats: '7'
+    },
+    {
+      id: 27,
+      name: 'Urbania 10+1',
+      image: 'https://truckcdn.cardekho.com/in/force/urbania/force-urbania.jpg?impolicy=resize&imwidth=480',
+      seats: '10+1 seats'
+    },
+    {
+      id: 28,
+      name: 'Urbania 12+1',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
+      seats: '12+1 seats'
+    },
+    {
+      id: 29,
+      name: 'Urbania 16+1',
+      image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/exterior-image-164.jpg',
+      seats: '16+1 seats'
+    },
     
+    // Buses (Second Section)
     {
       id: 5,
       name: 'Force Traveller (Non-AC)',
@@ -163,41 +129,73 @@ const CarList = () => {
       seats: 33
     },
     {
-      id: 25,
+      id: 30,
       name: '40 Seater Bus (AC)',
       image: 'https://5.imimg.com/data5/SELLER/Default/2023/3/PF/MD/IO/9177426/40-seater-bus-rental-bangalore.jpeg',
       seats: 40
     },
     {
-      id: 26,
+      id: 31,
       name: '40 Seater Bus (Non-AC)',
       image: 'https://5.imimg.com/data5/NS/CR/GY/SELLER-80396449/35-seater-bus-hire-in-bangalore-35-seater-bus-rental-in-bangalore-500x500.jpg',
       seats: 40
     },
     {
-      id: 27,
+      id: 32,
       name: '50 Seater Bus (AC)',
       image: 'https://lh4.googleusercontent.com/proxy/MSD2c_nx7uhLhRZcBBQdaE_i6GuD3sr6wSMVutBm9s30OIKYT47-Awt9J8BUo9dsrQFxsCyplgqnbUmShJejEz1l0kOG',
       seats: 50
     },
     {
-      id: 28,
+      id: 33,
       name: '50 Seater Bus (Non-AC)',
       image: 'https://samarthtravels.com/images/keyword/33.jpg',
       seats: 50
     },
+    
+    // Luxury Cars (Third Section)
+    {
+      id: 13,
+      name: 'BMW 7 Series',
+      image: 'https://i.postimg.cc/kMwkFSh9/laxury1.png',
+      seats: 'Luxury'
+    },
+    {
+      id: 14,
+      name: 'Mercedes-Benz S-Class',
+      image: 'https://t3.ftcdn.net/jpg/06/50/57/76/360_F_650577635_GesSMihkw3BjAVXDAKcLeaC8Ec8yUbTq.jpg',
+      seats: 'Luxury'
+    },
+    {
+      id: 15,
+      name: 'Audi A8 L',
+      image: 'https://media.istockphoto.com/id/1150425295/photo/3d-illustration-of-generic-hatchback-car-perspective-view.jpg?s=612x612&w=0&k=20&c=vws8oDFjcfGpqNAybWPxsA9XROdcBh2MXW2PGEDgk-8=',
+      seats: 'Luxury'
+    },
+    {
+      id: 18,
+      name: 'Rolls-Royce Ghost',
+      image: 'https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/1-0-home/page-properties/rrmc-homepage-ghost-share-image.jpg',
+      seats: 'Luxury'
+    },
+    {
+      id: 19,
+      name: 'BMW M5',
+      image: 'https://i.postimg.cc/NjRDbqfT/laxery7.png',
+      seats: 'Luxury'
+    },
   ];
 
   return (
-    <div className="bg-gray-100  py-16">
+    <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         {/* Header with background image */}
-        <div className="relative mb-12  -mt-16 -ml-4  -mr-4 overflow-hidden">
+        <div className="relative mb-12 -mt-16 -ml-4 -mr-4 overflow-hidden">
           <img src="/images/cars/car-header-bg.svg" alt="Car Listing Header" className="w-full h-48 object-cover" />
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
             <h1 className="text-4xl font-bold text-white mb-2">Car Listing</h1>
-            <div className="flex justify-center items-center text-white">
+            <div className="flex justify-center items-center text-white font-bold">
               <Link to="/" className="hover:text-yellow-500 transition-colors">Home</Link>
               <span className="mx-2">•</span>
               <span>Car Listing</span>
@@ -218,12 +216,12 @@ const CarList = () => {
                     e.target.src = '/images/cars/car-placeholder.svg';
                   }}
                 />
-                <div className="absolute top-4 left-4 bg-yellow-500 text-white px-2 py-1 rounded-md text-sm font-semibold">
+                <div className="absolute top-4 left-4 bg-yellow-500 text-white px-2 py-1 rounded-md text-sm font-bold">
                   {car.seats} seats
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">{car.name}</h3>
+                <h3 className="text-lg font-bold mb-2">{car.name}</h3>
               </div>
             </div>
           ))}
@@ -232,5 +230,6 @@ const CarList = () => {
     </div>
   );
 };
+
 export default CarList;
 
