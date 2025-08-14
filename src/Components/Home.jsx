@@ -46,7 +46,7 @@ const Home = () => {
   const images = [
     "https://wallpapers.com/images/hd/stylish-modern-white-jaguar-car-buf4kwkhwsm3384v.jpg",
     "https://5.imimg.com/data5/SELLER/Default/2023/1/YM/LB/OD/2957317/2021-toyota-innova-crysta-zx-automatic-diesel.jpg",
-    "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
+    "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/TOYOTA.png",
     "https://tourandtrave-main.vercel.app/images/cars/image1.webp",
 
