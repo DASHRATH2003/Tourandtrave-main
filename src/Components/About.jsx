@@ -3,12 +3,19 @@ import logo from "../assets/logo22.webp";
 
 // Import images for the slider
 const sliderImages = [
-  "https://imgd.aeplcdn.com/370x208/n/396ijta_1496119.jpg?q=80",
-  "https://png.pngtree.com/background/20231101/original/pngtree-sleek-and-lightning-fast-white-sports-car-against-a-pure-background-picture-image_5830117.jpg",
-  "https://t3.ftcdn.net/jpg/09/13/56/54/360_F_913565427_K3DnEqBiRfRdwNeMXXgRXirQOonXIgRb.jpg",
+  "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
+  "https://images.jdmagicbox.com/quickquotes/images_main/maruti-suzuki-swift-dzire-tour-s-bs6-pearl-metallic-arctic-white-271052469-42tlj.png",
   "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-  "https://media.istockphoto.com/id/2182418122/photo/white-jaguar-f-type-coupe-in-motion-on-a-sunny-day.jpg?s=612x612&w=0&k=20&c=jz2x2kn6SWZZ8bSmy1X3ymCp1ArBH9sM8ix9oL9RLME="
+  "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
+  "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
+  "https://5.imimg.com/data5/IK/YH/GLADMIN-9705085/force-tempo-traveller-500x500.jpg",
+
+  "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
+
+  "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+  
 ];
+
 
 // Image Slider Component
 const ImageSlider = () => {
@@ -128,7 +135,7 @@ const About = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6">
           <h1 className="text-3xl md:text-5xl font-bold text-white text-left mb-4 md:mb-6">
-            About Us
+            ABOUT US
           </h1>
           <p className="text-white text-base md:text-lg font-bold leading-relaxed">
             We are a passionate team committed to delivering top-quality

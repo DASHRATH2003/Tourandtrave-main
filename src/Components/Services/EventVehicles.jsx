@@ -26,7 +26,7 @@ const EventVehicles = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Event Vehicles
+            EVENT VEHICLES
           </h1>
           <p className="text-white text-lg font-bold leading-relaxed">
             We provide specialized vehicles for events, weddings, and special occasions. Our fleet includes luxury cars, SUVs, and buses to make your events memorable and comfortable for all your guests.
@@ -117,11 +117,16 @@ const EventVehicles = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                 "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
+                 "https://images.jdmagicbox.com/quickquotes/images_main/maruti-suzuki-swift-dzire-tour-s-bs6-pearl-metallic-arctic-white-271052469-42tlj.png",
+                 "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
+                 "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
+                 "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
+                 "https://5.imimg.com/data5/IK/YH/GLADMIN-9705085/force-tempo-traveller-500x500.jpg",
+               
+                 "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
+               
+                 "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
                 ]} />
               </div>
             </div>

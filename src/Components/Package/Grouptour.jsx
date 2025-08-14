@@ -17,7 +17,7 @@ const Grouptour = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Group tour 
+            GROUP TOURS 
           </h1>
           <p className="text-white text-lg font-bold leading-relaxed">
           There's something special about traveling as a group — the laughter, the shared discoveries, and the unforgettable moments. 

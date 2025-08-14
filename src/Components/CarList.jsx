@@ -20,7 +20,7 @@ const CarList = () => {
     },
     {
       id: 3,
-      name: 'Innova Crysta (SUV Primium)',
+      name: 'Innova Crysta (SUV Premium)',
       image: '/images/cars/image3.jpg',
       seats: 7
     },
@@ -64,19 +64,19 @@ const CarList = () => {
       id: 27,
       name: 'Urbania 10+1',
       image: 'https://truckcdn.cardekho.com/in/force/urbania/force-urbania.jpg?impolicy=resize&imwidth=480',
-      seats: '10+1 seats'
+      seats: '10+1 '
     },
     {
       id: 28,
       name: 'Urbania 12+1',
       image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/front-left-side-47.jpg',
-      seats: '12+1 seats'
+      seats: '12+1 '
     },
     {
       id: 29,
       name: 'Urbania 16+1',
       image: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Force/Urbania/11852/1750078302701/exterior-image-164.jpg',
-      seats: '16+1 seats'
+      seats: '16+1'
     },
     
     // Buses (Second Section)
@@ -194,7 +194,7 @@ const CarList = () => {
           <img src="/images/cars/car-header-bg.svg" alt="Car Listing Header" className="w-full h-48 object-cover" />
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
-            <h1 className="text-4xl font-bold text-white mb-2">Car Listing</h1>
+            <h1 className="text-4xl font-bold text-white mb-2">CAR LISTING</h1>
             <div className="flex justify-center items-center text-white font-bold">
               <Link to="/" className="hover:text-yellow-500 transition-colors">Home</Link>
               <span className="mx-2">•</span>

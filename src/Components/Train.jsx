@@ -4,13 +4,13 @@ import ImageSlider from './ImageSlider';
 // Images for slider - Train related images
 const sliderImages = [
   
-  "https://content3.jdmagicbox.com/v2/comp/bangalore/y3/080pxx80.xx80.170926165754.l7y3/catalogue/indian-railways-reservation-ticket-counter-bangalore-0i97dbqq3i.jpg"
+  "https://images.pexels.com/photos/10662882/pexels-photo-10662882.jpeg"
 ];
 const sliderImage = [
   
-  "https://t4.ftcdn.net/jpg/10/55/39/65/360_F_1055396548_IJFVICX3EmAld9WVN9i8wuBtp97n3YuK.jpg",
-  "https://w0.peakpx.com/wallpaper/131/1006/HD-wallpaper-indian-railway-track-railway-train-indain-carriage.jpg",
-  "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1063601,resizemode-75,msid-115732108/industry/transportation/railways/high-speed-trains-indian-railways-280-kmph-speed-aerodynamic-design-indias-next-high-speed-trains-are-coming-soon-beml-icf-ashwini-vaishnaw.jpg",
+  "https://www.financialexpress.com/wp-content/uploads/2023/11/1-122.jpg",
+  "https://img-cdn.publive.online/fit-in/1280x960/filters:format(webp)/bw-travel/media/media_files/2025/07/31/indian-railways-2025-07-31-12-35-59.png  ",
+  "https://wallpapercave.com/wp/wp4740876.jpg",
 ];
 
 const Train = () => {
@@ -29,7 +29,7 @@ const Train = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Train Ticket Services
+            TRAIN TICKET SERVICES
           </h1>
           <p className="text-white text-lg leading-relaxed font-bold">
           Our Train Ticket Services are designed to ensure convenient, reliable, and affordable travel for all your needs. 

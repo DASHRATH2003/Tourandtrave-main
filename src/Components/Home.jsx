@@ -588,7 +588,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img
-                  src="https://media.istockphoto.com/id/815708966/photo/female-traveler-picking-up-suitcase-from-baggage-claim-line.jpg?s=612x612&w=0&k=20&c=CU1PEGpfUyfifK2usaU0WBj6o0PAWa5BuoCvzx8yWrA="
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAQHBA0VrlM94RQor9TF82aaUEi4W2eX2amQ&s"
                   alt="Airport Pickup Drop"
                   className="w-full h-48 object-cover"
                 />
@@ -620,7 +620,7 @@ const Home = () => {
             <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
               <div className="relative">
                 <img
-                  src="https://img.freepik.com/premium-photo/traveler-man-with-map-waits-train-railway-platform_18497-648.jpg"
+                  src="https://i.postimg.cc/gjh0mJzX/or4.jpg"
                   alt="Out Station"
                   className="w-full h-48 object-cover"
                 />

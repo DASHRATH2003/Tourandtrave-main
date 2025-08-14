@@ -17,7 +17,7 @@ const Honeymoontour = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            HaneymoonTour
+            HANEYMOONTOOR
           </h1>
           <p className="text-white text-lg font-bold leading-relaxed">
             Create unforgettable memories with our romantic honeymoon tour packages. We offer customized romantic getaways to exotic destinations, ensuring your special journey together is perfect in every way.

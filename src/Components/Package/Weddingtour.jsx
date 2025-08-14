@@ -17,7 +17,7 @@ const Weddingtour = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Wedding Tour
+            WEDDING TOUR
           </h1>
           <p className="text-white text-lg font-bold leading-relaxed">
             Make your wedding day perfect with our comprehensive wedding tour packages. We provide complete wedding transportation services, including decorated vehicles and professional coordination for your special day.

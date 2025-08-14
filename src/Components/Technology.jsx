@@ -26,7 +26,7 @@ const Technology = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            Technology Solutions
+            TECHNOLOGY SOLUTION
           </h1>
           <p className="text-white text-lg leading-relaxed font-bold">
             Cutting-edge technology solutions to transform your business. From web development to AI integration, 
