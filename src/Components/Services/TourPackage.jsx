@@ -1,5 +1,9 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
+import tourpackage1 from '../../assets/tourpackage1.jpg';
+import tourpackage2 from '../../assets/tourpackage2.jpg';
+import tourpackage3 from '../../assets/tourpackage3.jpg';
+import tourpackage4 from '../../assets/tourpackage4.jpg';
 
 // Images for slider
 const sliderImages = [
@@ -115,20 +119,14 @@ const TourPackage = () => {
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">
-            {/* Tour Image Side */}
+            {/* Tour Package Image Side */}
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                  "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                  "https://images.jdmagicbox.com/quickquotes/images_main/maruti-suzuki-swift-dzire-tour-s-bs6-pearl-metallic-arctic-white-271052469-42tlj.png",
-                  "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-                  "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
-                  "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-                  "https://5.imimg.com/data5/IK/YH/GLADMIN-9705085/force-tempo-traveller-500x500.jpg",
-                
-                  "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
-                
-                  "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+                  tourpackage1,
+                  tourpackage2,
+                  tourpackage3,
+                  tourpackage4
                 ]} />
               </div>
             </div>

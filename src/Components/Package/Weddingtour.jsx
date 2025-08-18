@@ -1,5 +1,9 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
+import widding1 from '../../assets/widding1.jpg';
+import widding2 from '../../assets/widding2.jpg';
+import widding3 from '../../assets/widding3.jpg';
+import widding4 from '../../assets/widding4.jpg';
 
 const Weddingtour = () => {
   return (
@@ -58,7 +62,7 @@ const Weddingtour = () => {
             </a>
           </div>
         </div>
-
+        
         {/* Mobile Social Links */}
         <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50">
           <div className="flex justify-around py-3">
@@ -156,15 +160,14 @@ const Weddingtour = () => {
         {/* Contact Form Section */}
         <div className="mt-24">
           <div className="flex flex-col md:flex-row gap-12">   
-            {/* Car Image Slider Side */}
+            {/* Wedding Image Slider Side */}
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                  widding1,
+                  widding2,
+                  widding3,
+                  widding4
                 ]} />
               </div>
             </div>

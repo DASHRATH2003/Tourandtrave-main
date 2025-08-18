@@ -134,11 +134,11 @@ const Honeymoontour = () => {
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                  "https://i.postimg.cc/P50v54zj/hanimun1.jpg",
+                  "https://media.istockphoto.com/id/1387322137/photo/affectionate-couple-enjoying-the-scenic-view-during-a-road-trip.jpg?s=612x612&w=0&k=20&c=SC6K6TixT14BIB0Sl_PSoJ3cPy7-HMu3R5v3sxuAE-4=",
+                  "https://media.istockphoto.com/id/1148183860/photo/traveling-by-car-happy-couple-in-love-go-by-cabriolet-car-in-sunset-time.jpg?s=612x612&w=0&k=20&c=-jL4b79aHFI14FY3JXpyqh3Pz7SyrYgMufQ4duJmBfs=",
+                  "https://media.istockphoto.com/id/1253513724/photo/young-couple-parked-van-at-a-viewpoint-of-lake-tahoe.jpg?s=612x612&w=0&k=20&c=KyThFmOrWfFN5p0ADjHJIkOK7TI4vB7vlSzPvKU3BIY=",
+                  "https://media.istockphoto.com/id/184984291/photo/a-couple-just-married-with-balloons-tied-to-their-car.jpg?s=612x612&w=0&k=20&c=EJ3h-1yGDCOMmeQHFH8309RqaGiPtob_41sVbPu2XxY="
                 ]} />
               </div>
             </div>
