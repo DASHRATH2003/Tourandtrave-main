@@ -126,6 +126,7 @@ const TourPackage = () => {
                   tourpackage1,
                   tourpackage2,
                   tourpackage3,
+                  "https://shrikdtravels.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-2.23.46-PM-e1738042237763-1024x881.jpeg",
                   tourpackage4
                 ]} />
               </div>

@@ -129,7 +129,7 @@ const EmployeeTransport = () => {
                   "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
                   "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
                   "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-                  "https://5.imimg.com/data5/IK/YH/GLADMIN-9705085/force-tempo-traveller-500x500.jpg",
+                  "https://shrikdtravels.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-2.23.46-PM-e1738042237763-1024x881.jpeg",
                 
                   "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
                 

@@ -32,6 +32,7 @@ const Navbar = () => {
 
   const serviceLinks = [
     { name: 'Employee Transportation', path: '/services/employee-transport' },
+    { name: 'School Transportation', path: '/services/school-transport' },
     { name: 'Airport Pickup Drop', path: '/services/airport-pickup' },
     { name: 'Out Station Service', path: '/services/out-station' },
     { name: 'Tour Package Services', path: '/services/tour-package' },

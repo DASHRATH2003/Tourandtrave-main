@@ -17,6 +17,7 @@ import CorporateTour from './Components/Services/CorporateTour';
 import EventVehicles from './Components/Services/EventVehicles';
 import AppDuty from './Components/Services/AppDuty';
 import Vehicle from './Components/Services/Vehicle';
+import SchoolTransport from './Components/Services/SchoolTransport';
 
 // Technology Component
 import Technology from './Components/Technology';
@@ -40,6 +41,7 @@ function App() {
             
             {/* Service Routes */}
             <Route path="/services/employee-transport" element={<EmployeeTransport />} />
+            <Route path="/services/school-transport" element={<SchoolTransport />} />
             <Route path="/services/airport-pickup" element={<AirportPickup />} />
             <Route path="/services/out-station" element={<OutStation />} />
             <Route path="/services/tour-package" element={<TourPackage />} />

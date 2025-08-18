@@ -44,7 +44,7 @@ const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    "https://wallpapers.com/images/hd/stylish-modern-white-jaguar-car-buf4kwkhwsm3384v.jpg",
+   
     "https://5.imimg.com/data5/SELLER/Default/2023/1/YM/LB/OD/2957317/2021-toyota-innova-crysta-zx-automatic-diesel.jpg",
     "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/TOYOTA.png",
@@ -580,6 +580,29 @@ const Home = () => {
               <div className="p-3 md:p-4">
                 <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
                   Employee Transportation
+                </h3>
+              </div>
+            </div>
+
+            {/* School Transportation */}
+            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+              <div className="relative">
+                <img
+                  src="https://t3.ftcdn.net/jpg/04/58/08/30/360_F_458083018_GWf89ndA62i30YOJBD7rjUd30uXylPO5.jpg"
+                  className="w-full h-40 md:h-48 object-cover"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                    School Transportation
+                  </h3>
+                  <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                    Know More
+                  </button>
+                </div>
+              </div>
+              <div className="p-3 md:p-4">
+                <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
+                  School Transportation
                 </h3>
               </div>
             </div>
