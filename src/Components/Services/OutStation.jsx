@@ -123,7 +123,7 @@ const OutStation = () => {
               "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
               "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
               "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-              "https://i.postimg.cc/6Q9bmq0D/tttttttttttt.jpg",
+              "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
             
               "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
             
