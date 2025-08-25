@@ -118,16 +118,16 @@ const OutStation = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                <ImageSlider images={[
-              "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-              "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
-              "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-              "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
-              "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-              "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
+              "https://jaipurcabservices.com/assets/img/service/rajasthantaxi.jpg",
+              "https://content.jdmagicbox.com/v2/comp/bhavnagar/r7/0278px278.x278.240523211648.y1r7/catalogue/one-way-cab-9-bhavnagar-car-rental-on-monthly-basis-ayqywj3kod.jpg",
+              "https://content.jdmagicbox.com/v2/comp/delhi/05/011pjdypdl67605/catalogue/grace-tour-and-travels-palam-vihar-gurgaon-car-rental-6e7apehzph-250.jpg",
+              "https://5.imimg.com/data5/SELLER/Default/2024/7/431723321/RX/FK/IU/13927005/car-rental-service-500x500.jpg",
+              "https://rajasthantourcardriver.com/img/rajasthan-taxi.jpg",
+              "https://ajaycarrental.com/images/blog/Car-Rental-Outstation-tour.jpg",
             
-              "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
+              "https://indiatourtaxi.com/assets/images/backgrounds/taxi-service-in-delhi-for-outstation-large.webp",
             
-              "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+              "https://i0.wp.com/mumbaidreamtours.com/wp-content/uploads/2023/03/wm0ggvuht64sjb6ybsud.jpg?resize=730%2C350&ssl=1",
                 ]} />
               </div>
             </div>

@@ -124,16 +124,11 @@ const Vehicle = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                 "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                 "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
-                 "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-                 "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
-                 "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-                 "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
-               
-                 "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
-               
-                 "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+                 "https://lexerudites.com/wp-content/uploads/2020/12/Insurance.png",
+                 "https://www.policyhouse.com/web/image/893244/Car-Insurance%20uae.jpg?access_token=7674fb5c-f635-4b04-8725-e1050d045a24",
+                 "https://brze.sg/wp-content/uploads/2022/10/car-insurance.jpg",
+                 "https://www.prontoinsurance.com/blog/wp-content/uploads/2019/07/affordable-car-insurance-1024x682.jpg",
+                
                 ]} />
               </div>
             </div>

@@ -136,11 +136,11 @@ const Grouptour = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                  "https://images.jdmagicbox.com/v2/comp/bangalore/x4/080pxx80.xx80.240316113914.e6x4/catalogue/vbs-travels-and-car-rentals-andrahalli-bangalore-car-rental-vjgbyhcz8p.jpg",
+                  "https://content.jdmagicbox.com/comp/chamba/s2/9999p1899.1899.210810222522.d1s2/catalogue/the-himalayan-travel-tree-bathri-bazar-chamba-car-rental-vqvmiikwud.jpg",
+                  "https://media-cdn.tripadvisor.com/media/photo-s/1a/2f/cb/37/we-are-offering-9-seater.jpg",
+                  "https://tempotravellerinbangalore.com/img/rcky%20cbs.jpg",
+                  
                 ]} />
               </div>
             </div>

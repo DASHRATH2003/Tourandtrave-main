@@ -116,11 +116,11 @@ const ResortPackage = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
               <ImageSlider images={[
-                  
-                  "https://i.postimg.cc/xdYY5N9m/resort3.jpg",
-                  "https://i.postimg.cc/02M8yqtz/resort2.jpg",
-                  "https://i.postimg.cc/1RYmSzKx/Resort1.jpg",
-                  "https://www.amegundi.com/assets/images/day-out-platinum-package-1.png"
+                
+                  "https://media1.popsugar-assets.com/files/thumbor/tr0Zhr7kq8O8Atn1shIi3InpMhc=/fit-in/792x482/top/filters:format_auto():upscale()/2018/06/28/786/n/44701584/0f47d9935b352038eaed11.65637336_.jpg",
+                  "https://uploads-ssl.webflow.com/65e2e78d061034866949e5e6/65e5c6d6d1e4ea4c7336df69_658bb96e661f9aca80596bde_1592460460_44037231_242446576447985_8851411500900810752_o.jpeg",
+                  "https://cf.bstatic.com/xdata/images/hotel/max1024x768/567189600.webp?k=825934be6f07a472bedcda7a4c57d02108bd594a379d591f86e12c7ec84b2cc1&o=",
+                 
                 ]} />
               </div>
             </div>

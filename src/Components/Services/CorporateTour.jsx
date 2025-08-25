@@ -118,16 +118,12 @@ const CorporateTour = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                <ImageSlider images={[
-                 "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                 "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
-                 "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-                 "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
-                 "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-                 "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
-               
-                 "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
-               
-                 "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+                 "https://5.imimg.com/data5/SELLER/Default/2023/9/340676629/KI/DI/FH/196000769/corporate-tour-package-service-500x500.png",
+                 "https://5.imimg.com/data5/SELLER/Default/2022/5/US/UD/ZJ/26510525/corporate-package-domestic-tour-services-250x250.jpg",
+                 "https://www.citysearch.ae/UF/Companies/10801/1.jpg",
+                 "https://i0.wp.com/toponetour.com/wp-content/uploads/2024/03/HDStockImages.com-miNqa3.jpg?fit=1560%2C1000&ssl=1",
+                 "https://5.imimg.com/data5/SELLER/Default/2023/4/298273741/YA/XY/OK/187501798/corporate-travel-management-service.jpg",
+                
                 ]} />
               </div>
             </div>

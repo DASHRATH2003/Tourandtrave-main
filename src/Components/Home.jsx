@@ -46,7 +46,7 @@ const Home = () => {
 
   const images = [
    
-    "https://5.imimg.com/data5/SELLER/Default/2023/1/YM/LB/OD/2957317/2021-toyota-innova-crysta-zx-automatic-diesel.jpg",
+    "https://i.pinimg.com/736x/d0/9d/04/d09d04451a96408e58b72bb111ff4c26.jpg",
     "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/TOYOTA.png",
     "https://png.pngtree.com/thumb_back/fh260/background/20230707/pngtree-d-render-of-a-white-coach-tour-bus-driving-towards-pointer-image_3802595.jpg",

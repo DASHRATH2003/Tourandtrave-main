@@ -128,16 +128,16 @@ const AirportPickup = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                   "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                   "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
-                   "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
-                   "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
-                   "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
-                   "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
+                   "https://besttrackcalltaxi.com/img/pickup-service.jpg",
+                   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rZKYHzUOoEdmCQV8EmLKDHk4k6E29RA6Ag&s",
+                   "https://www.nashikmumbaicabs.com/wp-content/uploads/2013/05/airport-pickup.jpg",
+                   "https://www.awaycabs.in/uploads/image/services/airport-pickup-drop-mangalore.jpg",
+                   "https://5.imimg.com/data5/KU/GE/XN/SELLER-54371652/airport-transfer-service-250x250.jpg",
                  
-                   "https://www.ecorentacar.com/wp-content/uploads/2024/09/Force-Urbania-04.jpg",
+                   "https://hurryupcabs.com/images/airport_content/patna-airport-cab-web.webp",
                  
-                   "https://i.postimg.cc/9QjWPJL9/bus1.jpg",
+                   "https://hurryupcabs.com/images/airport_content/mangalore-airport-cab-web.webp",
+                   'https://go2ujjain.com/assets/images/20230808024008.jpg',
                 ]} />
               </div>
             </div>
