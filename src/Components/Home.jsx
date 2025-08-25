@@ -657,7 +657,7 @@ const Home = () => {
                   {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                      Out Station
+                      Local and Out Station
                     </h3>
                     <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
                       Know More
@@ -673,7 +673,7 @@ const Home = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="text-center text-gray-800 font-medium">
-                    Out Station
+                    Local and Out Station
                   </h3>
                 </div>
               </div>
