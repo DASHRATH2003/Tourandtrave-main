@@ -117,9 +117,9 @@ const EventVehicles = () => {
             <div className="md:w-1/2">
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                 "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                 "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
-                 "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
+                 "https://ik.imagekit.io/fofu0hrhb/tr:f-webp,q-5,c-at_max,pr-true/Wedding%20Car%20Rentals.png",
+                 "https://content.jdmagicbox.com/comp/adilabad/y9/9999p8732.8732.230129074324.k1y9/catalogue/aara-cars-adilabad-travel-agents-g6oa2ceu6z.jpg",
+                 "https://content.jdmagicbox.com/comp/balasore/s8/9999p6782.6782.220417001752.a7s8/catalogue/keo-cabs-balia-balasore-taxi-services-4nkhspeh8i.jpg",
                  "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
                  "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
                  "https://i.postimg.cc/vZ6X29fq/newforce-removebg-preview.png",
