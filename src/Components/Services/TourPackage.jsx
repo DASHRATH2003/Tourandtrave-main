@@ -4,9 +4,9 @@ import tourpackage1 from '../../assets/tourpackage1.jpg';
 import tourpackage2 from '../../assets/tourpackage5.webp';
 import tourpackage3 from '../../assets/tourpackage3.jpg';
 import tourpackage4 from '../../assets/tourpackage4.jpg';
-import tourpackage5 from '../../assets/tourpackage6.avif';
+import tourpackage5 from '../../assets/Tourpackage6.avif';
 
-import tourpackage6 from '../../assets/tourpackage7.jpg';
+import tourpackage6 from '../../assets/Tourpackage7.jpg';
 
 
 import tour22 from '../../assets/tour22.webp';
