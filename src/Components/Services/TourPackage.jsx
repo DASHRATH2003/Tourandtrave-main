@@ -135,7 +135,7 @@ const TourPackage = () => {
                   tour22,
                   tourpackage4,
                   tourpackage5,
-                  tourpackage6
+                  tourpackage6, 
 
                 ]} />
               </div>
