@@ -26,7 +26,7 @@ const OutStation = () => {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-white text-left mb-6">
-            OUT STATION
+           LOCAL AND OUT STATION
           </h1>
           <p className="text-white text-lg font-bold leading-relaxed">
             We provide reliable outstation travel services for long-distance journeys. Our services include comfortable vehicles, experienced drivers, and flexible itineraries to make your outstation trips safe and enjoyable.
