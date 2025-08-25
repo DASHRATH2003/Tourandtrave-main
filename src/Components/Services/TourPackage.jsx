@@ -4,6 +4,7 @@ import tourpackage1 from '../../assets/tourpackage1.jpg';
 import tourpackage2 from '../../assets/tourpackage2.jpg';
 import tourpackage3 from '../../assets/tourpackage3.jpg';
 import tourpackage4 from '../../assets/tourpackage4.jpg';
+import tour22 from '../../assets/tour22.webp';
 
 // Images for slider
 const sliderImages = [
@@ -126,7 +127,7 @@ const TourPackage = () => {
                   tourpackage1,
                   tourpackage2,
                   tourpackage3,
-                  "https://shrikdtravels.com/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-2.23.46-PM-e1738042237763-1024x881.jpeg",
+                  tour22,
                   tourpackage4
                 ]} />
               </div>

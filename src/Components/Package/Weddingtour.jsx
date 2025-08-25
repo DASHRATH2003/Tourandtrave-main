@@ -1,9 +1,11 @@
 import React from 'react';
 import ImageSlider from '../ImageSlider';
-import widding1 from '../../assets/widding1.jpg';
 import widding2 from '../../assets/widding2.jpg';
 import widding3 from '../../assets/widding3.jpg';
 import widding4 from '../../assets/widding4.jpg';
+import widding22 from '../../assets/widding5.png';
+
+
 
 const Weddingtour = () => {
   return (
@@ -164,10 +166,10 @@ const Weddingtour = () => {
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
-                  widding1,
                   widding2,
                   widding3,
-                  widding4
+                  widding4,
+                  widding22
                 ]} />
               </div>
             </div>

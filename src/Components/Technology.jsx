@@ -222,11 +222,11 @@ const Technology = () => {
             <div className="md:w-1/2">                                         
               <div className="bg-gray-100 rounded-lg p-8">
                  <ImageSlider images={[
-                  "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
-                  "https://tourandtrave-main.vercel.app/images/cars/innovaedit.jpg",
-                  "https://imgd.aeplcdn.com/640X480/image/used/qjcj10hml1gx.jpg?q=80",
-                  "https://www.xdrivecars.com/assets/images/car_images/Used-cars-in-trivandrum--1701202525084.webp",
-                  "https://www.team-bhp.com/forum/attachments/official-new-car-reviews/2719170d1737952850-2024-maruti-dzire-review-img_20250126_171644743.jpg"
+                  "https://w0.peakpx.com/wallpaper/24/683/HD-wallpaper-future-technology-technology-the-future-technology-of-the-future-thumbnail.jpg",
+                  "https://framerusercontent.com/images/8wgjLEjEHVLY6VHHkaINSijszE.jpg",
+                  "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                  "https://img.freepik.com/free-photo/professional-software-developer-types-code-laptop-sleek-workspace_482257-125128.jpg?semt=ais_hybrid&w=740&q=80",
+                  "https://img.freepik.com/free-photo/african-american-software-developer-does-visual-coding-creating-software_482257-126402.jpg?semt=ais_hybrid&w=740&q=80"
                 ]} />
               </div>
             </div>

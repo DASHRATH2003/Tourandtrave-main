@@ -148,9 +148,27 @@ const CarList = () => {
     },
     {
       id: 33,
-      name: '50 Seater Bus (Non-AC)',
-      image: 'https://samarthtravels.com/images/keyword/33.jpg',
-      seats: 50
+      name: '30 Seater School Bus (Non-AC)',
+      image: 'https://5.imimg.com/data5/SELLER/Default/2024/12/474086729/OF/NQ/BY/237264453/mahindra-cruzio-grande-bs6-school-bus-500x500.png',
+      seats: 30
+    },
+     {
+      id: 33,
+      name: '20 Seater School Bus (Non-AC)',
+      image: 'https://5.imimg.com/data5/SELLER/Default/2024/7/438072284/FY/VI/WN/226061581/school-bus-services-in-bengaluru-250x250.jpg',
+      seats: 20
+    },
+     {
+      id: 33,
+      name: '15 Seater School Bus (Non-AC)',
+      image: 'https://content.jdmagicbox.com/quickquotes/images_main/traveller-school-bus-3050-15-seater-3350-272537049-8vofj7vb.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit',
+      seats: 15
+    },
+     {
+      id: 33,
+      name: '25 Seater School Bus (Non-AC)',
+      image: 'https://content.jdmagicbox.com/quickquotes/images_main/deluxe-25-1-1-school-bus-803402074-fm14dyz6.jpg?impolicy=queryparam&im=Resize=(360,360),aspect=fit',
+      seats: 25
     },
     
     // Luxury Cars (Third Section)

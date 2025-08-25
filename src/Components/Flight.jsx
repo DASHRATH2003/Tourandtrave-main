@@ -10,6 +10,8 @@ const sliderImage = [
   "https://i.pinimg.com/736x/38/59/ac/3859acc59d6ff9be4f7b68ffc2e957ca.jpg",
   "https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-hd-plane-material-taking-off-in-the-sun-image_1061304.jpg",
   "https://cdn.pngedits.com/uploads/preview/flying-airplane-png-images-hd-11624929290cbizkw6skv.png",
+  'https://images.ctfassets.net/pdf29us7flmy/5ExZrNddyjKlFVC4oJWpci/d52b2225f0bf3342779a965ea6907c2e/airplane-runway-vertical.jpg',
+  'https://cf-images.us-east-1.prod.boltdns.net/v1/static/854081161001/1f356a70-aa75-4845-8ab1-e58f46e74279/a3f9cd25-b4ed-4f0a-88a2-208e4f812ea2/1024x576/match/image.jpg',
 
 ];
 

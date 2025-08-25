@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import ContactBar from "./ContactBar";
 
 const StatCounter = ({ end, duration = 2000, label }) => {
@@ -51,10 +52,8 @@ const Home = () => {
     "https://tourandtrave-main.vercel.app/images/cars/image1.webp",
 
     "http://localhost:3000/images/cars/temporent.jpg",
-    "https://wallpaperbat.com/img/8604471-white-car-in-white-background-hd-white.jpg",
-    "https://wallpapercave.com/wp/wp7395093.jpg",
     "https://images7.alphacoders.com/109/1099562.jpg",
-    "https://t4.ftcdn.net/jpg/04/92/99/55/360_F_492995537_bq5MY3312bqxzTFo8i0ny2nSxP0EmG3e.jpg",
+    "https://ic4.maxabout.us/autos/cars_india//F/2021/10/force-traveller-3050.jpg",
   ];
 
   const vehicles = [
@@ -561,241 +560,259 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
             {/* Service Cards - Update each card's padding and image height */}
             {/* Employee Transportation */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://uffizio.com/wp-content/uploads/2024/02/Fleets-2.jpg"
-                  alt="Employee Transportation"
-                  className="w-full h-40 md:h-48 object-cover"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/employee-transport" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://uffizio.com/wp-content/uploads/2024/02/Fleets-2.jpg"
+                    alt="Employee Transportation"
+                    className="w-full h-40 md:h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Employee Transportation
+                    </h3>
+                    <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                </div>
+                <div className="p-3 md:p-4">
+                  <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
                     Employee Transportation
                   </h3>
-                  <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
                 </div>
               </div>
-              <div className="p-3 md:p-4">
-                <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
-                  Employee Transportation
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* School Transportation */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://t3.ftcdn.net/jpg/04/58/08/30/360_F_458083018_GWf89ndA62i30YOJBD7rjUd30uXylPO5.jpg"
-                  className="w-full h-40 md:h-48 object-cover"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/school-transport" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://t3.ftcdn.net/jpg/04/58/08/30/360_F_458083018_GWf89ndA62i30YOJBD7rjUd30uXylPO5.jpg"
+                    alt="School Transportation"
+                    className="w-full h-40 md:h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-2 md:mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      School Transportation
+                    </h3>
+                    <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                </div>
+                <div className="p-3 md:p-4">
+                  <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
                     School Transportation
                   </h3>
-                  <button className="bg-black text-white px-4 md:px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
                 </div>
               </div>
-              <div className="p-3 md:p-4">
-                <h3 className="text-center text-gray-800 font-medium text-sm md:text-base">
-                  School Transportation
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* Airport Pickup Drop */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAQHBA0VrlM94RQor9TF82aaUEi4W2eX2amQ&s"
-                  alt="Airport Pickup Drop"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                    Airport Pickup Drop
-                  </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
-                </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+            <Link to="/services/airport-pickup" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
                   <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAQHBA0VrlM94RQor9TF82aaUEi4W2eX2amQ&s"
+                    alt="Airport Pickup Drop"
+                    className="w-full h-48 object-cover"
                   />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Airport Pickup and Drop
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
+                </div>
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
+                    Airport Pickup And Drop
+                  </h3>
                 </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Airport Pickup Drop
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* Out Station */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://i.postimg.cc/gjh0mJzX/or4.jpg"
-                  alt="Out Station"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/out-station" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://i.postimg.cc/gjh0mJzX/or4.jpg"
+                    alt="Out Station"
+                    className="w-full h-48 object-cover"
+                  />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Out Station
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
+                </div>
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
                     Out Station
                   </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
-                </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
-                  />
                 </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Out Station
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* Tour Packages */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://sun-b2b.s3.us-east-2.amazonaws.com/tour/Ram%20Janambhoomi%20Temple%20Ayodhya%20SLW.jpg"
-                  alt="Tour Packages"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/tour-package" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://sun-b2b.s3.us-east-2.amazonaws.com/tour/Ram%20Janambhoomi%20Temple%20Ayodhya%20SLW.jpg"
+                    alt="Tour Packages"
+                    className="w-full h-48 object-cover"
+                  />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Tour Packages
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
+                </div>
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
                     Tour Packages
                   </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
                 </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+              </div>
+            </Link>
+            {/* Vehicle Insurance Service */}
+            <Link to="/services/vehicle" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
                   <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
+                    src="https://t4.ftcdn.net/jpg/05/15/30/57/360_F_515305790_58wwwoB0DbvAidgDZbK7U3ZPhUvvfjzy.jpg"
+                    alt="Vehicle Insurance Service"
+                    className="w-full h-48 object-cover"
                   />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Vehicle insurance service
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Tour Packages
-                </h3>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://t4.ftcdn.net/jpg/05/15/30/57/360_F_515305790_58wwwoB0DbvAidgDZbK7U3ZPhUvvfjzy.jpg"
-                  alt="Tour Packages"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
                     Vehicle insurance service
                   </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
-                </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
-                  />
                 </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Vehicle insurance service
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* Corporate Tour Services */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://media.istockphoto.com/id/1489123986/photo/travel-for-business-team-at-airport-and-men-catch-flight-for-work-trip-with-conference-or.jpg?s=612x612&w=0&k=20&c=TtfyyN-mkRKAHiOcmNV5IHOWSuL2THEmPgCWXlj7EBM="
-                  alt="Corporate Tour Services"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/corporate-tour" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://media.istockphoto.com/id/1489123986/photo/travel-for-business-team-at-airport-and-men-catch-flight-for-work-trip-with-conference-or.jpg?s=612x612&w=0&k=20&c=TtfyyN-mkRKAHiOcmNV5IHOWSuL2THEmPgCWXlj7EBM="
+                    alt="Corporate Tour Services"
+                    className="w-full h-48 object-cover"
+                  />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Corporate Tour Services
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
+                </div>
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
                     Corporate Tour Services
                   </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
-                </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
-                  />
                 </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Corporate Tour Services
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* Vehicles for Events & Tours */}
-            <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
-              <div className="relative">
-                <img
-                  src="https://media.istockphoto.com/id/679617450/photo/lake-pichola-rajasthan.jpg?s=612x612&w=0&k=20&c=AtPrOK5vPqzJn8RbpzYxvMhq7Lo7AyOahgvvbwAT7Jo="
-                  alt="Vehicles for Events & Tours"
-                  className="w-full h-48 object-cover"
-                />
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+            <Link to="/services/event-vehicles" className="block">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow group">
+                <div className="relative">
+                  <img
+                    src="https://media.istockphoto.com/id/679617450/photo/lake-pichola-rajasthan.jpg?s=612x612&w=0&k=20&c=AtPrOK5vPqzJn8RbpzYxvMhq7Lo7AyOahgvvbwAT7Jo="
+                    alt="Vehicles for Events & Tours"
+                    className="w-full h-48 object-cover"
+                  />
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h3 className="text-white font-medium mb-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      Vehicles for Events & Tours
+                    </h3>
+                    <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                      Know More
+                    </button>
+                  </div>
+                  <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img
+                      src="https://img.icons8.com/ios-filled/50/000000/car.png"
+                      alt=""
+                      className="w-6 h-6"
+                    />
+                  </div>
+                </div>
+                <div className="p-4">
+                  <h3 className="text-center text-gray-800 font-medium">
                     Vehicles for Events & Tours
                   </h3>
-                  <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-gray-800 transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
-                    Know More
-                  </button>
-                </div>
-                <div className="absolute bottom-3 right-3 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <img
-                    src="https://img.icons8.com/ios-filled/50/000000/car.png"
-                    alt=""
-                    className="w-6 h-6"
-                  />
                 </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-center text-gray-800 font-medium">
-                  Vehicles for Events & Tours
-                </h3>
-              </div>
-            </div>
+            </Link>
 
             {/* With App Duty/Without App Duty */}
           </div>

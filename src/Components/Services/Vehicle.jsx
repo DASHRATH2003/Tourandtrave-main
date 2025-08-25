@@ -125,7 +125,7 @@ const Vehicle = () => {
               <div className="bg-gray-100 rounded-lg p-8">
                 <ImageSlider images={[
                  "https://i.postimg.cc/z3Y1jGFN/tatainnova.jpg",
-                 "https://images.jdmagicbox.com/quickquotes/images_main/maruti-suzuki-swift-dzire-tour-s-bs6-pearl-metallic-arctic-white-271052469-42tlj.png",
+                 "https://i.pinimg.com/736x/0e/0d/a2/0e0da2818b70f0eed5f478bd4a893b13.jpg",
                  "https://tourandtrave-main.vercel.app/images/cars/image3.jpg",
                  "https://www.financialexpress.com/wp-content/uploads/2020/08/Toyota-Fortuner-TRD-660.jpg",
                  "https://imgd.aeplcdn.com/664x374/n/ima73cb_1726651.jpg?q=80",
