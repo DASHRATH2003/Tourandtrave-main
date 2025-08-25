@@ -49,9 +49,8 @@ const Home = () => {
     "https://5.imimg.com/data5/SELLER/Default/2023/1/YM/LB/OD/2957317/2021-toyota-innova-crysta-zx-automatic-diesel.jpg",
     "https://static3.toyotabharat.com/images/showroom/innova-mmc/unmatched-unrivaled-banner1600x850.jpg",
     "https://tourandtrave-main.vercel.app/images/cars/TOYOTA.png",
-    "https://tourandtrave-main.vercel.app/images/cars/image1.webp",
-
     "http://localhost:3000/images/cars/temporent.jpg",
+    "https://tourandtrave-main.vercel.app/images/cars/image1.webp",
     "https://images7.alphacoders.com/109/1099562.jpg",
     "https://ic4.maxabout.us/autos/cars_india//F/2021/10/force-traveller-3050.jpg",
   ];
